@@ -1,0 +1,290 @@
+[
+  {
+    "root": "clamp-0",
+    "family": "clamp",
+    "kind": "easy",
+    "specification": "clamp_0(x, low, high) returns x clipped to the inclusive interval [low, high]. All inputs are integers, low <= high.",
+    "files": {
+      "app.py": "def clamp_0(x, low, high):\n    return max(low, x)\n",
+      "tests.py": "from app import clamp_0\nassert clamp_0(*(-5, -3, 3)) == -3\nassert clamp_0(*(5, -3, 3)) == 3\nassert clamp_0(*(0, -3, 3)) == 0\n"
+    },
+    "oracle": "def clamp_0(x, low, high):\n    return min(high, max(low, x))\n",
+    "hidden": "from app import clamp_0\nassert clamp_0(*(-5, -2, 4)) == -2\nassert clamp_0(*(-4, -2, 4)) == -2\nassert clamp_0(*(-3, -2, 4)) == -2\nassert clamp_0(*(-2, -2, 4)) == -2\nassert clamp_0(*(-1, -2, 4)) == -1\nassert clamp_0(*(0, -2, 4)) == 0\nassert clamp_0(*(1, -2, 4)) == 1\nassert clamp_0(*(2, -2, 4)) == 2\nassert clamp_0(*(3, -2, 4)) == 3\nassert clamp_0(*(4, -2, 4)) == 4\nassert clamp_0(*(5, -2, 4)) == 4\nassert clamp_0(*(6, -2, 4)) == 4\nassert clamp_0(*(7, -2, 4)) == 4\nassert clamp_0(*(-10, 2, 2)) == 2\nassert clamp_0(*(2, 2, 2)) == 2\nassert clamp_0(*(10, 2, 2)) == 2\n"
+  },
+  {
+    "root": "clamp-1",
+    "family": "clamp",
+    "kind": "easy",
+    "specification": "clamp_1(x, low, high) returns x clipped to the inclusive interval [low, high]. All inputs are integers, low <= high.",
+    "files": {
+      "app.py": "def clamp_1(x, low, high):\n    return max(low, x)\n",
+      "tests.py": "from app import clamp_1\nassert clamp_1(*(-4, -2, 4)) == -2\nassert clamp_1(*(6, -2, 4)) == 4\nassert clamp_1(*(1, -2, 4)) == 1\n"
+    },
+    "oracle": "def clamp_1(x, low, high):\n    return min(high, max(low, x))\n",
+    "hidden": "from app import clamp_1\nassert clamp_1(*(-5, -2, 4)) == -2\nassert clamp_1(*(-4, -2, 4)) == -2\nassert clamp_1(*(-3, -2, 4)) == -2\nassert clamp_1(*(-2, -2, 4)) == -2\nassert clamp_1(*(-1, -2, 4)) == -1\nassert clamp_1(*(0, -2, 4)) == 0\nassert clamp_1(*(1, -2, 4)) == 1\nassert clamp_1(*(2, -2, 4)) == 2\nassert clamp_1(*(3, -2, 4)) == 3\nassert clamp_1(*(4, -2, 4)) == 4\nassert clamp_1(*(5, -2, 4)) == 4\nassert clamp_1(*(6, -2, 4)) == 4\nassert clamp_1(*(7, -2, 4)) == 4\nassert clamp_1(*(-10, 2, 2)) == 2\nassert clamp_1(*(2, 2, 2)) == 2\nassert clamp_1(*(10, 2, 2)) == 2\n"
+  },
+  {
+    "root": "clamp-2",
+    "family": "clamp",
+    "kind": "easy",
+    "specification": "clamp_2(x, low, high) returns x clipped to the inclusive interval [low, high]. All inputs are integers, low <= high.",
+    "files": {
+      "app.py": "def clamp_2(x, low, high):\n    return max(low, x)\n",
+      "tests.py": "from app import clamp_2\nassert clamp_2(*(-3, -1, 5)) == -1\nassert clamp_2(*(7, -1, 5)) == 5\nassert clamp_2(*(2, -1, 5)) == 2\n"
+    },
+    "oracle": "def clamp_2(x, low, high):\n    return min(high, max(low, x))\n",
+    "hidden": "from app import clamp_2\nassert clamp_2(*(-5, -2, 4)) == -2\nassert clamp_2(*(-4, -2, 4)) == -2\nassert clamp_2(*(-3, -2, 4)) == -2\nassert clamp_2(*(-2, -2, 4)) == -2\nassert clamp_2(*(-1, -2, 4)) == -1\nassert clamp_2(*(0, -2, 4)) == 0\nassert clamp_2(*(1, -2, 4)) == 1\nassert clamp_2(*(2, -2, 4)) == 2\nassert clamp_2(*(3, -2, 4)) == 3\nassert clamp_2(*(4, -2, 4)) == 4\nassert clamp_2(*(5, -2, 4)) == 4\nassert clamp_2(*(6, -2, 4)) == 4\nassert clamp_2(*(7, -2, 4)) == 4\nassert clamp_2(*(-10, 2, 2)) == 2\nassert clamp_2(*(2, 2, 2)) == 2\nassert clamp_2(*(10, 2, 2)) == 2\n"
+  },
+  {
+    "root": "clamp-3",
+    "family": "clamp",
+    "kind": "easy",
+    "specification": "clamp_3(x, low, high) returns x clipped to the inclusive interval [low, high]. All inputs are integers, low <= high.",
+    "files": {
+      "app.py": "def clamp_3(x, low, high):\n    return max(low, x)\n",
+      "tests.py": "from app import clamp_3\nassert clamp_3(*(-2, 0, 6)) == 0\nassert clamp_3(*(8, 0, 6)) == 6\nassert clamp_3(*(3, 0, 6)) == 3\n"
+    },
+    "oracle": "def clamp_3(x, low, high):\n    return min(high, max(low, x))\n",
+    "hidden": "from app import clamp_3\nassert clamp_3(*(-5, -2, 4)) == -2\nassert clamp_3(*(-4, -2, 4)) == -2\nassert clamp_3(*(-3, -2, 4)) == -2\nassert clamp_3(*(-2, -2, 4)) == -2\nassert clamp_3(*(-1, -2, 4)) == -1\nassert clamp_3(*(0, -2, 4)) == 0\nassert clamp_3(*(1, -2, 4)) == 1\nassert clamp_3(*(2, -2, 4)) == 2\nassert clamp_3(*(3, -2, 4)) == 3\nassert clamp_3(*(4, -2, 4)) == 4\nassert clamp_3(*(5, -2, 4)) == 4\nassert clamp_3(*(6, -2, 4)) == 4\nassert clamp_3(*(7, -2, 4)) == 4\nassert clamp_3(*(-10, 2, 2)) == 2\nassert clamp_3(*(2, 2, 2)) == 2\nassert clamp_3(*(10, 2, 2)) == 2\n"
+  },
+  {
+    "root": "clamp-4",
+    "family": "clamp",
+    "kind": "main",
+    "specification": "clamp_4(x, low, high) returns x clipped to the inclusive interval [low, high]. All inputs are integers, low <= high.",
+    "files": {
+      "app.py": "def clamp_4(x, low, high):\n    return min(low, max(high, x))\n",
+      "tests.py": "from app import clamp_4\nassert clamp_4(*(-1, 1, 7)) == 1\nassert clamp_4(*(9, 1, 7)) == 7\nassert clamp_4(*(4, 1, 7)) == 4\n"
+    },
+    "oracle": "def clamp_4(x, low, high):\n    return min(high, max(low, x))\n",
+    "hidden": "from app import clamp_4\nassert clamp_4(*(-5, -2, 4)) == -2\nassert clamp_4(*(-4, -2, 4)) == -2\nassert clamp_4(*(-3, -2, 4)) == -2\nassert clamp_4(*(-2, -2, 4)) == -2\nassert clamp_4(*(-1, -2, 4)) == -1\nassert clamp_4(*(0, -2, 4)) == 0\nassert clamp_4(*(1, -2, 4)) == 1\nassert clamp_4(*(2, -2, 4)) == 2\nassert clamp_4(*(3, -2, 4)) == 3\nassert clamp_4(*(4, -2, 4)) == 4\nassert clamp_4(*(5, -2, 4)) == 4\nassert clamp_4(*(6, -2, 4)) == 4\nassert clamp_4(*(7, -2, 4)) == 4\nassert clamp_4(*(-10, 2, 2)) == 2\nassert clamp_4(*(2, 2, 2)) == 2\nassert clamp_4(*(10, 2, 2)) == 2\n"
+  },
+  {
+    "root": "clamp-5",
+    "family": "clamp",
+    "kind": "main",
+    "specification": "clamp_5(x, low, high) returns x clipped to the inclusive interval [low, high]. All inputs are integers, low <= high.",
+    "files": {
+      "app.py": "def clamp_5(x, low, high):\n    return min(low, max(high, x))\n",
+      "tests.py": "from app import clamp_5\nassert clamp_5(*(0, 2, 8)) == 2\nassert clamp_5(*(10, 2, 8)) == 8\nassert clamp_5(*(5, 2, 8)) == 5\n"
+    },
+    "oracle": "def clamp_5(x, low, high):\n    return min(high, max(low, x))\n",
+    "hidden": "from app import clamp_5\nassert clamp_5(*(-5, -2, 4)) == -2\nassert clamp_5(*(-4, -2, 4)) == -2\nassert clamp_5(*(-3, -2, 4)) == -2\nassert clamp_5(*(-2, -2, 4)) == -2\nassert clamp_5(*(-1, -2, 4)) == -1\nassert clamp_5(*(0, -2, 4)) == 0\nassert clamp_5(*(1, -2, 4)) == 1\nassert clamp_5(*(2, -2, 4)) == 2\nassert clamp_5(*(3, -2, 4)) == 3\nassert clamp_5(*(4, -2, 4)) == 4\nassert clamp_5(*(5, -2, 4)) == 4\nassert clamp_5(*(6, -2, 4)) == 4\nassert clamp_5(*(7, -2, 4)) == 4\nassert clamp_5(*(-10, 2, 2)) == 2\nassert clamp_5(*(2, 2, 2)) == 2\nassert clamp_5(*(10, 2, 2)) == 2\n"
+  },
+  {
+    "root": "clamp-6",
+    "family": "clamp",
+    "kind": "main",
+    "specification": "clamp_6(x, low, high) returns x clipped to the inclusive interval [low, high]. All inputs are integers, low <= high.",
+    "files": {
+      "app.py": "def clamp_6(x, low, high):\n    return min(low, max(high, x))\n",
+      "tests.py": "from app import clamp_6\nassert clamp_6(*(1, 3, 9)) == 3\nassert clamp_6(*(11, 3, 9)) == 9\nassert clamp_6(*(6, 3, 9)) == 6\n"
+    },
+    "oracle": "def clamp_6(x, low, high):\n    return min(high, max(low, x))\n",
+    "hidden": "from app import clamp_6\nassert clamp_6(*(-5, -2, 4)) == -2\nassert clamp_6(*(-4, -2, 4)) == -2\nassert clamp_6(*(-3, -2, 4)) == -2\nassert clamp_6(*(-2, -2, 4)) == -2\nassert clamp_6(*(-1, -2, 4)) == -1\nassert clamp_6(*(0, -2, 4)) == 0\nassert clamp_6(*(1, -2, 4)) == 1\nassert clamp_6(*(2, -2, 4)) == 2\nassert clamp_6(*(3, -2, 4)) == 3\nassert clamp_6(*(4, -2, 4)) == 4\nassert clamp_6(*(5, -2, 4)) == 4\nassert clamp_6(*(6, -2, 4)) == 4\nassert clamp_6(*(7, -2, 4)) == 4\nassert clamp_6(*(-10, 2, 2)) == 2\nassert clamp_6(*(2, 2, 2)) == 2\nassert clamp_6(*(10, 2, 2)) == 2\n"
+  },
+  {
+    "root": "clamp-7",
+    "family": "clamp",
+    "kind": "main",
+    "specification": "clamp_7(x, low, high) returns x clipped to the inclusive interval [low, high]. All inputs are integers, low <= high.",
+    "files": {
+      "app.py": "def clamp_7(x, low, high):\n    return min(low, max(high, x))\n",
+      "tests.py": "from app import clamp_7\nassert clamp_7(*(2, 4, 10)) == 4\nassert clamp_7(*(12, 4, 10)) == 10\nassert clamp_7(*(7, 4, 10)) == 7\n"
+    },
+    "oracle": "def clamp_7(x, low, high):\n    return min(high, max(low, x))\n",
+    "hidden": "from app import clamp_7\nassert clamp_7(*(-5, -2, 4)) == -2\nassert clamp_7(*(-4, -2, 4)) == -2\nassert clamp_7(*(-3, -2, 4)) == -2\nassert clamp_7(*(-2, -2, 4)) == -2\nassert clamp_7(*(-1, -2, 4)) == -1\nassert clamp_7(*(0, -2, 4)) == 0\nassert clamp_7(*(1, -2, 4)) == 1\nassert clamp_7(*(2, -2, 4)) == 2\nassert clamp_7(*(3, -2, 4)) == 3\nassert clamp_7(*(4, -2, 4)) == 4\nassert clamp_7(*(5, -2, 4)) == 4\nassert clamp_7(*(6, -2, 4)) == 4\nassert clamp_7(*(7, -2, 4)) == 4\nassert clamp_7(*(-10, 2, 2)) == 2\nassert clamp_7(*(2, 2, 2)) == 2\nassert clamp_7(*(10, 2, 2)) == 2\n"
+  },
+  {
+    "root": "unique-0",
+    "family": "unique",
+    "kind": "easy",
+    "specification": "unique_0(values) returns distinct integers in order of first occurrence, including zero and negative integers. Empty input returns [].",
+    "files": {
+      "app.py": "def unique_0(values):\n    return sorted(set(values))\n",
+      "tests.py": "from app import unique_0\nassert unique_0(*([3, 1, 3, 0, 1],)) == [3, 1, 0]\nassert unique_0(*([],)) == []\nassert unique_0(*([0, 0],)) == [0]\n"
+    },
+    "oracle": "def unique_0(values):\n    return list(dict.fromkeys(values))\n",
+    "hidden": "from app import unique_0\nassert unique_0(*([4, 2, 4, 1],)) == [4, 2, 1]\nassert unique_0(*([-2, 0, -2, 3],)) == [-2, 0, 3]\nassert unique_0(*([0],)) == [0]\nassert unique_0(*([],)) == []\nassert unique_0(*([3, 3, 3],)) == [3]\nassert unique_0(*([-1, -3, 2, -1],)) == [-1, -3, 2]\nassert unique_0(*([9, 8, 7],)) == [9, 8, 7]\n"
+  },
+  {
+    "root": "unique-1",
+    "family": "unique",
+    "kind": "easy",
+    "specification": "unique_1(values) returns distinct integers in order of first occurrence, including zero and negative integers. Empty input returns [].",
+    "files": {
+      "app.py": "def unique_1(values):\n    return sorted(set(values))\n",
+      "tests.py": "from app import unique_1\nassert unique_1(*([4, 1, 4, 0, 1],)) == [4, 1, 0]\nassert unique_1(*([],)) == []\nassert unique_1(*([0, 0],)) == [0]\n"
+    },
+    "oracle": "def unique_1(values):\n    return list(dict.fromkeys(values))\n",
+    "hidden": "from app import unique_1\nassert unique_1(*([4, 2, 4, 1],)) == [4, 2, 1]\nassert unique_1(*([-2, 0, -2, 3],)) == [-2, 0, 3]\nassert unique_1(*([0],)) == [0]\nassert unique_1(*([],)) == []\nassert unique_1(*([3, 3, 3],)) == [3]\nassert unique_1(*([-1, -3, 2, -1],)) == [-1, -3, 2]\nassert unique_1(*([9, 8, 7],)) == [9, 8, 7]\n"
+  },
+  {
+    "root": "unique-2",
+    "family": "unique",
+    "kind": "easy",
+    "specification": "unique_2(values) returns distinct integers in order of first occurrence, including zero and negative integers. Empty input returns [].",
+    "files": {
+      "app.py": "def unique_2(values):\n    return sorted(set(values))\n",
+      "tests.py": "from app import unique_2\nassert unique_2(*([5, 1, 5, 0, 1],)) == [5, 1, 0]\nassert unique_2(*([],)) == []\nassert unique_2(*([0, 0],)) == [0]\n"
+    },
+    "oracle": "def unique_2(values):\n    return list(dict.fromkeys(values))\n",
+    "hidden": "from app import unique_2\nassert unique_2(*([4, 2, 4, 1],)) == [4, 2, 1]\nassert unique_2(*([-2, 0, -2, 3],)) == [-2, 0, 3]\nassert unique_2(*([0],)) == [0]\nassert unique_2(*([],)) == []\nassert unique_2(*([3, 3, 3],)) == [3]\nassert unique_2(*([-1, -3, 2, -1],)) == [-1, -3, 2]\nassert unique_2(*([9, 8, 7],)) == [9, 8, 7]\n"
+  },
+  {
+    "root": "unique-3",
+    "family": "unique",
+    "kind": "easy",
+    "specification": "unique_3(values) returns distinct integers in order of first occurrence, including zero and negative integers. Empty input returns [].",
+    "files": {
+      "app.py": "def unique_3(values):\n    return sorted(set(values))\n",
+      "tests.py": "from app import unique_3\nassert unique_3(*([6, 1, 6, 0, 1],)) == [6, 1, 0]\nassert unique_3(*([],)) == []\nassert unique_3(*([0, 0],)) == [0]\n"
+    },
+    "oracle": "def unique_3(values):\n    return list(dict.fromkeys(values))\n",
+    "hidden": "from app import unique_3\nassert unique_3(*([4, 2, 4, 1],)) == [4, 2, 1]\nassert unique_3(*([-2, 0, -2, 3],)) == [-2, 0, 3]\nassert unique_3(*([0],)) == [0]\nassert unique_3(*([],)) == []\nassert unique_3(*([3, 3, 3],)) == [3]\nassert unique_3(*([-1, -3, 2, -1],)) == [-1, -3, 2]\nassert unique_3(*([9, 8, 7],)) == [9, 8, 7]\n"
+  },
+  {
+    "root": "unique-4",
+    "family": "unique",
+    "kind": "main",
+    "specification": "unique_4(values) returns distinct integers in order of first occurrence, including zero and negative integers. Empty input returns [].",
+    "files": {
+      "app.py": "def unique_4(values):\n    return sorted(set(v for v in values if v))\n",
+      "tests.py": "from app import unique_4\nassert unique_4(*([7, 1, 7, 0, 1],)) == [7, 1, 0]\nassert unique_4(*([],)) == []\nassert unique_4(*([0, 0],)) == [0]\n"
+    },
+    "oracle": "def unique_4(values):\n    return list(dict.fromkeys(values))\n",
+    "hidden": "from app import unique_4\nassert unique_4(*([4, 2, 4, 1],)) == [4, 2, 1]\nassert unique_4(*([-2, 0, -2, 3],)) == [-2, 0, 3]\nassert unique_4(*([0],)) == [0]\nassert unique_4(*([],)) == []\nassert unique_4(*([3, 3, 3],)) == [3]\nassert unique_4(*([-1, -3, 2, -1],)) == [-1, -3, 2]\nassert unique_4(*([9, 8, 7],)) == [9, 8, 7]\n"
+  },
+  {
+    "root": "unique-5",
+    "family": "unique",
+    "kind": "main",
+    "specification": "unique_5(values) returns distinct integers in order of first occurrence, including zero and negative integers. Empty input returns [].",
+    "files": {
+      "app.py": "def unique_5(values):\n    return sorted(set(v for v in values if v))\n",
+      "tests.py": "from app import unique_5\nassert unique_5(*([8, 1, 8, 0, 1],)) == [8, 1, 0]\nassert unique_5(*([],)) == []\nassert unique_5(*([0, 0],)) == [0]\n"
+    },
+    "oracle": "def unique_5(values):\n    return list(dict.fromkeys(values))\n",
+    "hidden": "from app import unique_5\nassert unique_5(*([4, 2, 4, 1],)) == [4, 2, 1]\nassert unique_5(*([-2, 0, -2, 3],)) == [-2, 0, 3]\nassert unique_5(*([0],)) == [0]\nassert unique_5(*([],)) == []\nassert unique_5(*([3, 3, 3],)) == [3]\nassert unique_5(*([-1, -3, 2, -1],)) == [-1, -3, 2]\nassert unique_5(*([9, 8, 7],)) == [9, 8, 7]\n"
+  },
+  {
+    "root": "unique-6",
+    "family": "unique",
+    "kind": "main",
+    "specification": "unique_6(values) returns distinct integers in order of first occurrence, including zero and negative integers. Empty input returns [].",
+    "files": {
+      "app.py": "def unique_6(values):\n    return sorted(set(v for v in values if v))\n",
+      "tests.py": "from app import unique_6\nassert unique_6(*([9, 1, 9, 0, 1],)) == [9, 1, 0]\nassert unique_6(*([],)) == []\nassert unique_6(*([0, 0],)) == [0]\n"
+    },
+    "oracle": "def unique_6(values):\n    return list(dict.fromkeys(values))\n",
+    "hidden": "from app import unique_6\nassert unique_6(*([4, 2, 4, 1],)) == [4, 2, 1]\nassert unique_6(*([-2, 0, -2, 3],)) == [-2, 0, 3]\nassert unique_6(*([0],)) == [0]\nassert unique_6(*([],)) == []\nassert unique_6(*([3, 3, 3],)) == [3]\nassert unique_6(*([-1, -3, 2, -1],)) == [-1, -3, 2]\nassert unique_6(*([9, 8, 7],)) == [9, 8, 7]\n"
+  },
+  {
+    "root": "unique-7",
+    "family": "unique",
+    "kind": "main",
+    "specification": "unique_7(values) returns distinct integers in order of first occurrence, including zero and negative integers. Empty input returns [].",
+    "files": {
+      "app.py": "def unique_7(values):\n    return sorted(set(v for v in values if v))\n",
+      "tests.py": "from app import unique_7\nassert unique_7(*([10, 1, 10, 0, 1],)) == [10, 1, 0]\nassert unique_7(*([],)) == []\nassert unique_7(*([0, 0],)) == [0]\n"
+    },
+    "oracle": "def unique_7(values):\n    return list(dict.fromkeys(values))\n",
+    "hidden": "from app import unique_7\nassert unique_7(*([4, 2, 4, 1],)) == [4, 2, 1]\nassert unique_7(*([-2, 0, -2, 3],)) == [-2, 0, 3]\nassert unique_7(*([0],)) == [0]\nassert unique_7(*([],)) == []\nassert unique_7(*([3, 3, 3],)) == [3]\nassert unique_7(*([-1, -3, 2, -1],)) == [-1, -3, 2]\nassert unique_7(*([9, 8, 7],)) == [9, 8, 7]\n"
+  },
+  {
+    "root": "chunks-0",
+    "family": "chunks",
+    "kind": "easy",
+    "specification": "chunks_0(values, size) partitions a list of integers into consecutive chunks of at most size elements, keeping all elements in order including a final short chunk. size is a positive integer; empty input returns [].",
+    "files": {
+      "app.py": "def chunks_0(values, size):\n    return [values[i:i+size] for i in range(0, len(values)-1, size)]\n",
+      "tests.py": "from app import chunks_0\nassert chunks_0(*([0], 2)) == [[0]]\nassert chunks_0(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_0(*([], 3)) == []\n"
+    },
+    "oracle": "def chunks_0(values, size):\n    return [values[i:i+size] for i in range(0, len(values), size)]\n",
+    "hidden": "from app import chunks_0\nassert chunks_0(*([], 1)) == []\nassert chunks_0(*([], 2)) == []\nassert chunks_0(*([], 4)) == []\nassert chunks_0(*([0], 1)) == [[0]]\nassert chunks_0(*([0], 2)) == [[0]]\nassert chunks_0(*([0], 4)) == [[0]]\nassert chunks_0(*([0, 1], 1)) == [[0], [1]]\nassert chunks_0(*([0, 1], 2)) == [[0, 1]]\nassert chunks_0(*([0, 1], 4)) == [[0, 1]]\nassert chunks_0(*([0, 1, 2], 1)) == [[0], [1], [2]]\nassert chunks_0(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_0(*([0, 1, 2], 4)) == [[0, 1, 2]]\nassert chunks_0(*([0, 1, 2, 3], 1)) == [[0], [1], [2], [3]]\nassert chunks_0(*([0, 1, 2, 3], 2)) == [[0, 1], [2, 3]]\nassert chunks_0(*([0, 1, 2, 3], 4)) == [[0, 1, 2, 3]]\nassert chunks_0(*([0, 1, 2, 3, 4], 1)) == [[0], [1], [2], [3], [4]]\nassert chunks_0(*([0, 1, 2, 3, 4], 2)) == [[0, 1], [2, 3], [4]]\nassert chunks_0(*([0, 1, 2, 3, 4], 4)) == [[0, 1, 2, 3], [4]]\nassert chunks_0(*([0, 1, 2, 3, 4, 5], 1)) == [[0], [1], [2], [3], [4], [5]]\nassert chunks_0(*([0, 1, 2, 3, 4, 5], 2)) == [[0, 1], [2, 3], [4, 5]]\nassert chunks_0(*([0, 1, 2, 3, 4, 5], 4)) == [[0, 1, 2, 3], [4, 5]]\n"
+  },
+  {
+    "root": "chunks-1",
+    "family": "chunks",
+    "kind": "easy",
+    "specification": "chunks_1(values, size) partitions a list of integers into consecutive chunks of at most size elements, keeping all elements in order including a final short chunk. size is a positive integer; empty input returns [].",
+    "files": {
+      "app.py": "def chunks_1(values, size):\n    return [values[i:i+size] for i in range(0, len(values)-1, size)]\n",
+      "tests.py": "from app import chunks_1\nassert chunks_1(*([1], 2)) == [[1]]\nassert chunks_1(*([1, 2, 3], 2)) == [[1, 2], [3]]\nassert chunks_1(*([], 3)) == []\n"
+    },
+    "oracle": "def chunks_1(values, size):\n    return [values[i:i+size] for i in range(0, len(values), size)]\n",
+    "hidden": "from app import chunks_1\nassert chunks_1(*([], 1)) == []\nassert chunks_1(*([], 2)) == []\nassert chunks_1(*([], 4)) == []\nassert chunks_1(*([0], 1)) == [[0]]\nassert chunks_1(*([0], 2)) == [[0]]\nassert chunks_1(*([0], 4)) == [[0]]\nassert chunks_1(*([0, 1], 1)) == [[0], [1]]\nassert chunks_1(*([0, 1], 2)) == [[0, 1]]\nassert chunks_1(*([0, 1], 4)) == [[0, 1]]\nassert chunks_1(*([0, 1, 2], 1)) == [[0], [1], [2]]\nassert chunks_1(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_1(*([0, 1, 2], 4)) == [[0, 1, 2]]\nassert chunks_1(*([0, 1, 2, 3], 1)) == [[0], [1], [2], [3]]\nassert chunks_1(*([0, 1, 2, 3], 2)) == [[0, 1], [2, 3]]\nassert chunks_1(*([0, 1, 2, 3], 4)) == [[0, 1, 2, 3]]\nassert chunks_1(*([0, 1, 2, 3, 4], 1)) == [[0], [1], [2], [3], [4]]\nassert chunks_1(*([0, 1, 2, 3, 4], 2)) == [[0, 1], [2, 3], [4]]\nassert chunks_1(*([0, 1, 2, 3, 4], 4)) == [[0, 1, 2, 3], [4]]\nassert chunks_1(*([0, 1, 2, 3, 4, 5], 1)) == [[0], [1], [2], [3], [4], [5]]\nassert chunks_1(*([0, 1, 2, 3, 4, 5], 2)) == [[0, 1], [2, 3], [4, 5]]\nassert chunks_1(*([0, 1, 2, 3, 4, 5], 4)) == [[0, 1, 2, 3], [4, 5]]\n"
+  },
+  {
+    "root": "chunks-2",
+    "family": "chunks",
+    "kind": "easy",
+    "specification": "chunks_2(values, size) partitions a list of integers into consecutive chunks of at most size elements, keeping all elements in order including a final short chunk. size is a positive integer; empty input returns [].",
+    "files": {
+      "app.py": "def chunks_2(values, size):\n    return [values[i:i+size] for i in range(0, len(values)-1, size)]\n",
+      "tests.py": "from app import chunks_2\nassert chunks_2(*([2], 2)) == [[2]]\nassert chunks_2(*([2, 3, 4], 2)) == [[2, 3], [4]]\nassert chunks_2(*([], 3)) == []\n"
+    },
+    "oracle": "def chunks_2(values, size):\n    return [values[i:i+size] for i in range(0, len(values), size)]\n",
+    "hidden": "from app import chunks_2\nassert chunks_2(*([], 1)) == []\nassert chunks_2(*([], 2)) == []\nassert chunks_2(*([], 4)) == []\nassert chunks_2(*([0], 1)) == [[0]]\nassert chunks_2(*([0], 2)) == [[0]]\nassert chunks_2(*([0], 4)) == [[0]]\nassert chunks_2(*([0, 1], 1)) == [[0], [1]]\nassert chunks_2(*([0, 1], 2)) == [[0, 1]]\nassert chunks_2(*([0, 1], 4)) == [[0, 1]]\nassert chunks_2(*([0, 1, 2], 1)) == [[0], [1], [2]]\nassert chunks_2(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_2(*([0, 1, 2], 4)) == [[0, 1, 2]]\nassert chunks_2(*([0, 1, 2, 3], 1)) == [[0], [1], [2], [3]]\nassert chunks_2(*([0, 1, 2, 3], 2)) == [[0, 1], [2, 3]]\nassert chunks_2(*([0, 1, 2, 3], 4)) == [[0, 1, 2, 3]]\nassert chunks_2(*([0, 1, 2, 3, 4], 1)) == [[0], [1], [2], [3], [4]]\nassert chunks_2(*([0, 1, 2, 3, 4], 2)) == [[0, 1], [2, 3], [4]]\nassert chunks_2(*([0, 1, 2, 3, 4], 4)) == [[0, 1, 2, 3], [4]]\nassert chunks_2(*([0, 1, 2, 3, 4, 5], 1)) == [[0], [1], [2], [3], [4], [5]]\nassert chunks_2(*([0, 1, 2, 3, 4, 5], 2)) == [[0, 1], [2, 3], [4, 5]]\nassert chunks_2(*([0, 1, 2, 3, 4, 5], 4)) == [[0, 1, 2, 3], [4, 5]]\n"
+  },
+  {
+    "root": "chunks-3",
+    "family": "chunks",
+    "kind": "easy",
+    "specification": "chunks_3(values, size) partitions a list of integers into consecutive chunks of at most size elements, keeping all elements in order including a final short chunk. size is a positive integer; empty input returns [].",
+    "files": {
+      "app.py": "def chunks_3(values, size):\n    return [values[i:i+size] for i in range(0, len(values)-1, size)]\n",
+      "tests.py": "from app import chunks_3\nassert chunks_3(*([3], 2)) == [[3]]\nassert chunks_3(*([3, 4, 5], 2)) == [[3, 4], [5]]\nassert chunks_3(*([], 3)) == []\n"
+    },
+    "oracle": "def chunks_3(values, size):\n    return [values[i:i+size] for i in range(0, len(values), size)]\n",
+    "hidden": "from app import chunks_3\nassert chunks_3(*([], 1)) == []\nassert chunks_3(*([], 2)) == []\nassert chunks_3(*([], 4)) == []\nassert chunks_3(*([0], 1)) == [[0]]\nassert chunks_3(*([0], 2)) == [[0]]\nassert chunks_3(*([0], 4)) == [[0]]\nassert chunks_3(*([0, 1], 1)) == [[0], [1]]\nassert chunks_3(*([0, 1], 2)) == [[0, 1]]\nassert chunks_3(*([0, 1], 4)) == [[0, 1]]\nassert chunks_3(*([0, 1, 2], 1)) == [[0], [1], [2]]\nassert chunks_3(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_3(*([0, 1, 2], 4)) == [[0, 1, 2]]\nassert chunks_3(*([0, 1, 2, 3], 1)) == [[0], [1], [2], [3]]\nassert chunks_3(*([0, 1, 2, 3], 2)) == [[0, 1], [2, 3]]\nassert chunks_3(*([0, 1, 2, 3], 4)) == [[0, 1, 2, 3]]\nassert chunks_3(*([0, 1, 2, 3, 4], 1)) == [[0], [1], [2], [3], [4]]\nassert chunks_3(*([0, 1, 2, 3, 4], 2)) == [[0, 1], [2, 3], [4]]\nassert chunks_3(*([0, 1, 2, 3, 4], 4)) == [[0, 1, 2, 3], [4]]\nassert chunks_3(*([0, 1, 2, 3, 4, 5], 1)) == [[0], [1], [2], [3], [4], [5]]\nassert chunks_3(*([0, 1, 2, 3, 4, 5], 2)) == [[0, 1], [2, 3], [4, 5]]\nassert chunks_3(*([0, 1, 2, 3, 4, 5], 4)) == [[0, 1, 2, 3], [4, 5]]\n"
+  },
+  {
+    "root": "chunks-4",
+    "family": "chunks",
+    "kind": "main",
+    "specification": "chunks_4(values, size) partitions a list of integers into consecutive chunks of at most size elements, keeping all elements in order including a final short chunk. size is a positive integer; empty input returns [].",
+    "files": {
+      "app.py": "def chunks_4(values, size):\n    return [values[i:i+size-1] for i in range(1, len(values), size)]\n",
+      "tests.py": "from app import chunks_4\nassert chunks_4(*([4], 2)) == [[4]]\nassert chunks_4(*([4, 5, 6], 2)) == [[4, 5], [6]]\nassert chunks_4(*([], 3)) == []\n"
+    },
+    "oracle": "def chunks_4(values, size):\n    return [values[i:i+size] for i in range(0, len(values), size)]\n",
+    "hidden": "from app import chunks_4\nassert chunks_4(*([], 1)) == []\nassert chunks_4(*([], 2)) == []\nassert chunks_4(*([], 4)) == []\nassert chunks_4(*([0], 1)) == [[0]]\nassert chunks_4(*([0], 2)) == [[0]]\nassert chunks_4(*([0], 4)) == [[0]]\nassert chunks_4(*([0, 1], 1)) == [[0], [1]]\nassert chunks_4(*([0, 1], 2)) == [[0, 1]]\nassert chunks_4(*([0, 1], 4)) == [[0, 1]]\nassert chunks_4(*([0, 1, 2], 1)) == [[0], [1], [2]]\nassert chunks_4(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_4(*([0, 1, 2], 4)) == [[0, 1, 2]]\nassert chunks_4(*([0, 1, 2, 3], 1)) == [[0], [1], [2], [3]]\nassert chunks_4(*([0, 1, 2, 3], 2)) == [[0, 1], [2, 3]]\nassert chunks_4(*([0, 1, 2, 3], 4)) == [[0, 1, 2, 3]]\nassert chunks_4(*([0, 1, 2, 3, 4], 1)) == [[0], [1], [2], [3], [4]]\nassert chunks_4(*([0, 1, 2, 3, 4], 2)) == [[0, 1], [2, 3], [4]]\nassert chunks_4(*([0, 1, 2, 3, 4], 4)) == [[0, 1, 2, 3], [4]]\nassert chunks_4(*([0, 1, 2, 3, 4, 5], 1)) == [[0], [1], [2], [3], [4], [5]]\nassert chunks_4(*([0, 1, 2, 3, 4, 5], 2)) == [[0, 1], [2, 3], [4, 5]]\nassert chunks_4(*([0, 1, 2, 3, 4, 5], 4)) == [[0, 1, 2, 3], [4, 5]]\n"
+  },
+  {
+    "root": "chunks-5",
+    "family": "chunks",
+    "kind": "main",
+    "specification": "chunks_5(values, size) partitions a list of integers into consecutive chunks of at most size elements, keeping all elements in order including a final short chunk. size is a positive integer; empty input returns [].",
+    "files": {
+      "app.py": "def chunks_5(values, size):\n    return [values[i:i+size-1] for i in range(1, len(values), size)]\n",
+      "tests.py": "from app import chunks_5\nassert chunks_5(*([5], 2)) == [[5]]\nassert chunks_5(*([5, 6, 7], 2)) == [[5, 6], [7]]\nassert chunks_5(*([], 3)) == []\n"
+    },
+    "oracle": "def chunks_5(values, size):\n    return [values[i:i+size] for i in range(0, len(values), size)]\n",
+    "hidden": "from app import chunks_5\nassert chunks_5(*([], 1)) == []\nassert chunks_5(*([], 2)) == []\nassert chunks_5(*([], 4)) == []\nassert chunks_5(*([0], 1)) == [[0]]\nassert chunks_5(*([0], 2)) == [[0]]\nassert chunks_5(*([0], 4)) == [[0]]\nassert chunks_5(*([0, 1], 1)) == [[0], [1]]\nassert chunks_5(*([0, 1], 2)) == [[0, 1]]\nassert chunks_5(*([0, 1], 4)) == [[0, 1]]\nassert chunks_5(*([0, 1, 2], 1)) == [[0], [1], [2]]\nassert chunks_5(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_5(*([0, 1, 2], 4)) == [[0, 1, 2]]\nassert chunks_5(*([0, 1, 2, 3], 1)) == [[0], [1], [2], [3]]\nassert chunks_5(*([0, 1, 2, 3], 2)) == [[0, 1], [2, 3]]\nassert chunks_5(*([0, 1, 2, 3], 4)) == [[0, 1, 2, 3]]\nassert chunks_5(*([0, 1, 2, 3, 4], 1)) == [[0], [1], [2], [3], [4]]\nassert chunks_5(*([0, 1, 2, 3, 4], 2)) == [[0, 1], [2, 3], [4]]\nassert chunks_5(*([0, 1, 2, 3, 4], 4)) == [[0, 1, 2, 3], [4]]\nassert chunks_5(*([0, 1, 2, 3, 4, 5], 1)) == [[0], [1], [2], [3], [4], [5]]\nassert chunks_5(*([0, 1, 2, 3, 4, 5], 2)) == [[0, 1], [2, 3], [4, 5]]\nassert chunks_5(*([0, 1, 2, 3, 4, 5], 4)) == [[0, 1, 2, 3], [4, 5]]\n"
+  },
+  {
+    "root": "chunks-6",
+    "family": "chunks",
+    "kind": "main",
+    "specification": "chunks_6(values, size) partitions a list of integers into consecutive chunks of at most size elements, keeping all elements in order including a final short chunk. size is a positive integer; empty input returns [].",
+    "files": {
+      "app.py": "def chunks_6(values, size):\n    return [values[i:i+size-1] for i in range(1, len(values), size)]\n",
+      "tests.py": "from app import chunks_6\nassert chunks_6(*([6], 2)) == [[6]]\nassert chunks_6(*([6, 7, 8], 2)) == [[6, 7], [8]]\nassert chunks_6(*([], 3)) == []\n"
+    },
+    "oracle": "def chunks_6(values, size):\n    return [values[i:i+size] for i in range(0, len(values), size)]\n",
+    "hidden": "from app import chunks_6\nassert chunks_6(*([], 1)) == []\nassert chunks_6(*([], 2)) == []\nassert chunks_6(*([], 4)) == []\nassert chunks_6(*([0], 1)) == [[0]]\nassert chunks_6(*([0], 2)) == [[0]]\nassert chunks_6(*([0], 4)) == [[0]]\nassert chunks_6(*([0, 1], 1)) == [[0], [1]]\nassert chunks_6(*([0, 1], 2)) == [[0, 1]]\nassert chunks_6(*([0, 1], 4)) == [[0, 1]]\nassert chunks_6(*([0, 1, 2], 1)) == [[0], [1], [2]]\nassert chunks_6(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_6(*([0, 1, 2], 4)) == [[0, 1, 2]]\nassert chunks_6(*([0, 1, 2, 3], 1)) == [[0], [1], [2], [3]]\nassert chunks_6(*([0, 1, 2, 3], 2)) == [[0, 1], [2, 3]]\nassert chunks_6(*([0, 1, 2, 3], 4)) == [[0, 1, 2, 3]]\nassert chunks_6(*([0, 1, 2, 3, 4], 1)) == [[0], [1], [2], [3], [4]]\nassert chunks_6(*([0, 1, 2, 3, 4], 2)) == [[0, 1], [2, 3], [4]]\nassert chunks_6(*([0, 1, 2, 3, 4], 4)) == [[0, 1, 2, 3], [4]]\nassert chunks_6(*([0, 1, 2, 3, 4, 5], 1)) == [[0], [1], [2], [3], [4], [5]]\nassert chunks_6(*([0, 1, 2, 3, 4, 5], 2)) == [[0, 1], [2, 3], [4, 5]]\nassert chunks_6(*([0, 1, 2, 3, 4, 5], 4)) == [[0, 1, 2, 3], [4, 5]]\n"
+  },
+  {
+    "root": "chunks-7",
+    "family": "chunks",
+    "kind": "main",
+    "specification": "chunks_7(values, size) partitions a list of integers into consecutive chunks of at most size elements, keeping all elements in order including a final short chunk. size is a positive integer; empty input returns [].",
+    "files": {
+      "app.py": "def chunks_7(values, size):\n    return [values[i:i+size-1] for i in range(1, len(values), size)]\n",
+      "tests.py": "from app import chunks_7\nassert chunks_7(*([7], 2)) == [[7]]\nassert chunks_7(*([7, 8, 9], 2)) == [[7, 8], [9]]\nassert chunks_7(*([], 3)) == []\n"
+    },
+    "oracle": "def chunks_7(values, size):\n    return [values[i:i+size] for i in range(0, len(values), size)]\n",
+    "hidden": "from app import chunks_7\nassert chunks_7(*([], 1)) == []\nassert chunks_7(*([], 2)) == []\nassert chunks_7(*([], 4)) == []\nassert chunks_7(*([0], 1)) == [[0]]\nassert chunks_7(*([0], 2)) == [[0]]\nassert chunks_7(*([0], 4)) == [[0]]\nassert chunks_7(*([0, 1], 1)) == [[0], [1]]\nassert chunks_7(*([0, 1], 2)) == [[0, 1]]\nassert chunks_7(*([0, 1], 4)) == [[0, 1]]\nassert chunks_7(*([0, 1, 2], 1)) == [[0], [1], [2]]\nassert chunks_7(*([0, 1, 2], 2)) == [[0, 1], [2]]\nassert chunks_7(*([0, 1, 2], 4)) == [[0, 1, 2]]\nassert chunks_7(*([0, 1, 2, 3], 1)) == [[0], [1], [2], [3]]\nassert chunks_7(*([0, 1, 2, 3], 2)) == [[0, 1], [2, 3]]\nassert chunks_7(*([0, 1, 2, 3], 4)) == [[0, 1, 2, 3]]\nassert chunks_7(*([0, 1, 2, 3, 4], 1)) == [[0], [1], [2], [3], [4]]\nassert chunks_7(*([0, 1, 2, 3, 4], 2)) == [[0, 1], [2, 3], [4]]\nassert chunks_7(*([0, 1, 2, 3, 4], 4)) == [[0, 1, 2, 3], [4]]\nassert chunks_7(*([0, 1, 2, 3, 4, 5], 1)) == [[0], [1], [2], [3], [4], [5]]\nassert chunks_7(*([0, 1, 2, 3, 4, 5], 2)) == [[0, 1], [2, 3], [4, 5]]\nassert chunks_7(*([0, 1, 2, 3, 4, 5], 4)) == [[0, 1, 2, 3], [4, 5]]\n"
+  }
+]

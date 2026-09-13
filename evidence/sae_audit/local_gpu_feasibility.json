@@ -1,0 +1,102 @@
+{
+  "timestamp_utc": "2026-09-13T14:47:06.081933+00:00",
+  "purpose": "engineering feasibility only; no candidate research experiment",
+  "python": "3.11.2",
+  "torch": "2.12.0+cu130",
+  "torch_cuda": "13.0",
+  "cuda_available": true,
+  "source_revision": "f408073dc1134f61f960a4e48515ff0450ce8dde",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "free_total_bytes_before": [
+    11607736320,
+    12884377600
+  ],
+  "nvidia_smi_before": "NVIDIA GeForce RTX 3080 Ti, 610.47, 12288 MiB, 10212 MiB, 31 %",
+  "model": "google/gemma-3-1b-pt",
+  "model_revision": "fcf18a2a879aab110ca39f8bffbccd5d49d8eb29",
+  "model_dtype": "bfloat16",
+  "sae_dtype": "float32",
+  "sae_revision": "b738dc06961818c011fb2e44a316352ca0f4e873",
+  "tf32": false,
+  "attention": "eager",
+  "use_cache": false,
+  "hook": "layers[13] output",
+  "sae_native_weights_equal": true,
+  "load_seconds": 6.4526880509999955,
+  "status": "passed",
+  "batches": [
+    {
+      "source": "fineweb-edu-sample",
+      "text_sha256": "7992032cbbe2e03d172d6a821e05bf5b68255145e3b35829ba9d0bd145ffc9ae",
+      "input_ids_sha256": "9af319b4e849ac69c1034eaa4f78638ca215e7a53e84fe34c8d52d3eacf0d314",
+      "tokens": 256,
+      "seconds": 0.03362763199999108,
+      "l0_mean": 63.80859375
+    },
+    {
+      "source": "fineweb-edu-sample",
+      "text_sha256": "3a008a40e5b9aafde4db065734592c967a9991a20e933bcb56210c0ee925151d",
+      "input_ids_sha256": "8b08aae9a656036cf3b80265d98a106c35fc90e1e488bae9e449b36eb8c97c9c",
+      "tokens": 256,
+      "seconds": 0.10649689999996781,
+      "l0_mean": 64.48828125
+    },
+    {
+      "source": "fineweb-edu-sample",
+      "text_sha256": "afb74e65863e0adacf2e15d627368b392d945c751ffaceaad9fca1a55722a7af",
+      "input_ids_sha256": "350f73b2d7a1732791f7abd140c108f10bf8268403c3217fe46618e4c14dd2bd",
+      "tokens": 238,
+      "seconds": 0.03449548499997945,
+      "l0_mean": 63.16386795043945
+    },
+    {
+      "source": "fineweb-edu-sample",
+      "text_sha256": "3a58a7d8c31a84880c1935b9532b89e1ac2ad6d9950605d2175acebec403c713",
+      "input_ids_sha256": "dd6d1a1a6efa7a474e168c7af6fb32b20174b1b70a32cb9fceae19791cb5e176",
+      "tokens": 256,
+      "seconds": 0.03150091399999155,
+      "l0_mean": 63.28125
+    },
+    {
+      "source": "wikimedia-en",
+      "text_sha256": "8beb55c4cea2c1e001820146a3ab2f6578c392b94f714a544579a4edecadc7ef",
+      "input_ids_sha256": "9f8ec89be7ca3b2c919e164c8b002007a2230135bf5559d157770482e52725f5",
+      "tokens": 256,
+      "seconds": 0.03357876199999055,
+      "l0_mean": 61.734375
+    },
+    {
+      "source": "wikimedia-en",
+      "text_sha256": "d4f6424c3fa126c31fb3a728fa8827860001d41313a779d71396c943dcc30af5",
+      "input_ids_sha256": "3739bde4c906403709b230342a6675ef7412de698db2d9c3d2f912e703ff8244",
+      "tokens": 256,
+      "seconds": 0.03293177200004038,
+      "l0_mean": 59.5859375
+    },
+    {
+      "source": "wikimedia-en",
+      "text_sha256": "086937a6438d06846433e09feef012e7e202ffae653c3cee7b4e4a87161568fe",
+      "input_ids_sha256": "7c058709cbf8539a8679f9a53e330cea26ee4db756071468b356563fefcde4f2",
+      "tokens": 241,
+      "seconds": 0.0365870379999933,
+      "l0_mean": 61.31535720825195
+    },
+    {
+      "source": "wikimedia-en",
+      "text_sha256": "059195725bf507331a8e3a8c805b4f4958739aa1aaa49e9a0104ba8c8a2a7c93",
+      "input_ids_sha256": "ad08a0cb0cc341efd09707b3d896bcc6d0e64ca6e23a522540101d8b0f3071d7",
+      "tokens": 192,
+      "seconds": 0.03495734000000539,
+      "l0_mean": 62.140625
+    }
+  ],
+  "batch_size": 1,
+  "sequence_cap": 256,
+  "peak_allocated_bytes": 2299702784,
+  "peak_reserved_bytes": 2373976064,
+  "total_measured_seconds": 0.3441758429999595,
+  "total_measured_tokens": 1951,
+  "wall_seconds": 7.381121852000035,
+  "host_maxrss_kib": 3294504,
+  "ended_at_utc": "2026-09-13T14:47:13.463940+00:00"
+}

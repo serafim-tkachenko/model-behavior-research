@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "raw_records": 48,
+  "paired_inputs_verified": 24,
+  "hidden_checks_reexecuted": 48,
+  "source_input_protocol_hashes_verified": true,
+  "raw_edit_flags_recomputed": true,
+  "invalid_responses": 8,
+  "truncated_responses": 0,
+  "median_rollout_seconds": 2.8810955286026,
+  "rollout_seconds": 162.8447721004486,
+  "generated_tokens": 3806,
+  "limitations": "Uses the executed sandbox evaluator for correctness; raw edit parsing and paired-input checks are separate. This is assistant verification, not human review."
+}

@@ -1,0 +1,44 @@
+{
+  "started_unix": 1789312861.7919874,
+  "model": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "dtype": "bfloat16",
+  "quantization": null,
+  "seed": 20260913,
+  "max_new_tokens": 512,
+  "do_sample": false,
+  "enable_thinking": false,
+  "use_cache": true,
+  "tf32": false,
+  "torch": "2.12.0+cu130",
+  "transformers": "5.12.0",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "source_sha256": "38081870c98969754ed3830d81c6cbc1f41f65fb7f81b7b8ae84fa464bc462c0",
+  "protocol_sha256": "0cc6db95192c877ecf3442cc80545da164926c0918b8c4eb6a8f6e79de468ba2",
+  "dataset_sha256": "2bb08f988888363d603bf99a810c4f05a6702a7ee2f9c766f10b5dbb42bf0b82",
+  "git_head": "f408073dc1134f61f960a4e48515ff0450ce8dde",
+  "git_status": "?? experiments/coding_forensics/\n",
+  "validation": {
+    "status": "passed",
+    "roots": 24,
+    "oracle_and_original_checks": 96,
+    "controls": [
+      "tampered visible vs hidden",
+      "no-op",
+      "path traversal",
+      "allowlist",
+      "early exit",
+      "CPU timeout",
+      "home absent",
+      "malformed and duplicate JSON"
+    ]
+  },
+  "attention": "sdpa",
+  "load_and_validation_seconds": 9.866791248321533,
+  "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "reminder_tokens": {
+    "generic": 20,
+    "boundary": 23
+  }
+}

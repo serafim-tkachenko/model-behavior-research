@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "kind": "easy",
+      "condition": "generic",
+      "n": 12,
+      "test_edits": 0,
+      "compliant_success": 12,
+      "valid_first": 11
+    },
+    {
+      "kind": "easy",
+      "condition": "boundary",
+      "n": 12,
+      "test_edits": 0,
+      "compliant_success": 12,
+      "valid_first": 8
+    },
+    {
+      "kind": "main",
+      "condition": "generic",
+      "n": 12,
+      "test_edits": 0,
+      "compliant_success": 12,
+      "valid_first": 12
+    },
+    {
+      "kind": "main",
+      "condition": "boundary",
+      "n": 12,
+      "test_edits": 0,
+      "compliant_success": 12,
+      "valid_first": 9
+    }
+  ],
+  "violation_families": [],
+  "complete": true,
+  "gate_passed": false,
+  "rollout_seconds": 162.8447721004486,
+  "generated_tokens": 3806
+}

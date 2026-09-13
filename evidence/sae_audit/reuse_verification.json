@@ -1,0 +1,259 @@
+{
+  "timestamp_utc": "2026-09-13T14:49:37.675824+00:00",
+  "execution_bundle": {
+    "runner_sha256": {
+      "executed_sha256": "7ce08d5eeaf8fee8040ae517fd8628c9a127dad633295146b373c2369623a423",
+      "provenance_sha256": "7ce08d5eeaf8fee8040ae517fd8628c9a127dad633295146b373c2369623a423",
+      "current_matches_execution": true
+    },
+    "math_sha256": {
+      "executed_sha256": "aae32cd092b3323eefb3a398479a13cf5f293bfe40f86bf5c58b16414ab6527f",
+      "provenance_sha256": "aae32cd092b3323eefb3a398479a13cf5f293bfe40f86bf5c58b16414ab6527f",
+      "current_matches_execution": true
+    },
+    "plan.json": {
+      "bundle_matches_prepared": true,
+      "bundle_matches_downloaded": true
+    },
+    "config.json": {
+      "bundle_matches_prepared": true,
+      "bundle_matches_downloaded": true
+    },
+    "prompts.jsonl": {
+      "bundle_matches_prepared": true,
+      "bundle_matches_downloaded": true
+    },
+    "vectors.npz": {
+      "bundle_matches_prepared": true,
+      "bundle_matches_downloaded": true
+    }
+  },
+  "result_archive_matches_download": {
+    "all_equal": true,
+    "files": 201
+  },
+  "corpus": {
+    "hash_verified": true,
+    "documents": 12000,
+    "groups": 11998,
+    "split_source_counts": "{('fineweb-edu-sample', 'discovery'): 2965, ('fineweb-edu-sample', 'evaluation'): 3035, ('wikimedia-en', 'discovery'): 3054, ('wikimedia-en', 'evaluation'): 2946}",
+    "dataset_revisions": {
+      "HuggingFaceFW/fineweb-edu": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+      "wikimedia/wikipedia": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa"
+    }
+  },
+  "geometry_target_columns": [
+    "text_id",
+    "token_pos",
+    "feature_id",
+    "activation",
+    "token_id",
+    "token_str",
+    "source",
+    "split",
+    "duplicate_group",
+    "token_quality_label",
+    "token_quality_is_space",
+    "token_quality_is_special",
+    "token_quality_is_quote",
+    "token_quality_is_punctuation",
+    "token_quality_is_symbol",
+    "token_quality_is_mojibake",
+    "token_quality_is_control",
+    "token_quality_is_artifact",
+    "token_index",
+    "n_positive_features",
+    "level",
+    "purpose"
+  ],
+  "foundation_pca_overlap_with_pilot_check": {
+    "reference_documents": 600,
+    "check_documents": 47,
+    "overlap_document_ids": [
+      5889,
+      10203
+    ]
+  },
+  "foundation_17": {
+    "files_present": [
+      [
+        "regime_weak_control_fits.parquet",
+        374456
+      ],
+      [
+        "regime_assignments.parquet",
+        77719956
+      ],
+      [
+        "token_activation_summary.parquet",
+        8383996
+      ],
+      [
+        "regime_coactivation.parquet",
+        4154830
+      ],
+      [
+        "regime_token_population.parquet",
+        43231244
+      ],
+      [
+        "regime_matched_controls.parquet",
+        4078
+      ],
+      [
+        "regime_weak_control_edges.parquet",
+        733361
+      ],
+      [
+        "regime_weak_matched_controls.parquet",
+        5654
+      ],
+      [
+        "sae_activations_positive.parquet",
+        2005518371
+      ],
+      [
+        "regime_weak_control_nulls.parquet",
+        985143
+      ],
+      [
+        "regime_null_results.parquet",
+        4969092
+      ],
+      [
+        "token_metadata.parquet",
+        34811823
+      ],
+      [
+        "regime_neighborhood_comparison.parquet",
+        29924
+      ],
+      [
+        "analysis_features.parquet",
+        1968284
+      ],
+      [
+        "feature_stats.parquet",
+        3672510
+      ],
+      [
+        "regime_weak_control_assignments.parquet",
+        10331370
+      ],
+      [
+        "regime_weak_control_comparison.parquet",
+        23341
+      ],
+      [
+        "regime_feature_summary.parquet",
+        396492
+      ]
+    ],
+    "geometry/orthogonal_conjunction.parquet": {
+      "columns": [
+        "feature_id",
+        "conjunction_p",
+        "q_by",
+        "cross_source_cosine"
+      ],
+      "rows": 24,
+      "q_column_counts": {
+        "q_by": 3
+      }
+    }
+  },
+  "foundation_22": {
+    "files_present": [
+      [
+        "regime_weak_control_fits.parquet",
+        373981
+      ],
+      [
+        "regime_assignments.parquet",
+        83991753
+      ],
+      [
+        "token_activation_summary.parquet",
+        8399392
+      ],
+      [
+        "regime_coactivation.parquet",
+        6326875
+      ],
+      [
+        "regime_token_population.parquet",
+        43246386
+      ],
+      [
+        "regime_matched_controls.parquet",
+        4079
+      ],
+      [
+        "regime_weak_control_edges.parquet",
+        1141772
+      ],
+      [
+        "regime_weak_matched_controls.parquet",
+        5682
+      ],
+      [
+        "sae_activations_positive.parquet",
+        2106243852
+      ],
+      [
+        "regime_weak_control_nulls.parquet",
+        985141
+      ],
+      [
+        "regime_null_results.parquet",
+        5006446
+      ],
+      [
+        "token_metadata.parquet",
+        34811823
+      ],
+      [
+        "regime_neighborhood_comparison.parquet",
+        29898
+      ],
+      [
+        "analysis_features.parquet",
+        2571705
+      ],
+      [
+        "feature_stats.parquet",
+        3679827
+      ],
+      [
+        "regime_weak_control_assignments.parquet",
+        15625636
+      ],
+      [
+        "regime_weak_control_comparison.parquet",
+        23349
+      ],
+      [
+        "regime_feature_summary.parquet",
+        395034
+      ]
+    ],
+    "geometry/orthogonal_conjunction.parquet": {
+      "columns": [
+        "feature_id",
+        "conjunction_p",
+        "q_by",
+        "cross_source_cosine"
+      ],
+      "rows": 24,
+      "q_column_counts": {
+        "q_by": 6
+      }
+    }
+  },
+  "4b_checkpoint_parameter_counts": {
+    "text": 3880263168,
+    "other": 419816304
+  },
+  "4b_text_float32_gib": 14.455106735229492,
+  "elapsed_seconds": 0.4784476290000157
+}

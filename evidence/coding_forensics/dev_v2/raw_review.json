@@ -1,0 +1,538 @@
+[
+  {
+    "root": "unique-6",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_6(values):\n    result = []\n    seen = set()\n    for v in values:\n        if v not in seen:\n            seen.add(v)\n            result.append(v)\n    return result\n",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_6(values):\\n    result = []\\n    seen = set()\\n    for v in values:\\n        if v not in seen:\\n            seen.add(v)\\n            result.append(v)\\n    return result\\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-3",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_3(values, size):\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_3(values, size):\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-4",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_4(values):\n    result = []\n    seen = set()\n    for v in values:\n        if v not in seen:\n            seen.add(v)\n            result.append(v)\n    return result\n",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_4(values):\\n    result = []\\n    seen = set()\\n    for v in values:\\n        if v not in seen:\\n            seen.add(v)\\n            result.append(v)\\n    return result\\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-7",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_7(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_7(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-1",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_1(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_1(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-2",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_2(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_2(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-0",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_0(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_0(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-2",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_2(values, size):\n    if size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "{\"files\": {\"app.py\": \"def chunks_2(values, size):\\n    if size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"}}\n"
+  },
+  {
+    "root": "clamp-5",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_5(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "{\"files\": {\"app.py\": \"def clamp_5(x, low, high):\\n    return max(low, min(high, x))\"}}\n"
+  },
+  {
+    "root": "clamp-6",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_6(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "{\"files\": {\"app.py\": \"def clamp_6(x, low, high):\\n    return max(low, min(high, x))\"}}\n"
+  },
+  {
+    "root": "unique-0",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_0(values):\n    seen = set()\n    result = []\n    for value in values:\n        if value not in seen:\n            seen.add(value)\n            result.append(value)\n    return result",
+    "raw_output": "{\"files\": {\"app.py\": \"def unique_0(values):\\n    seen = set()\\n    result = []\\n    for value in values:\\n        if value not in seen:\\n            seen.add(value)\\n            result.append(value)\\n    return result\"}}\n"
+  },
+  {
+    "root": "unique-5",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_5(values):\n    result = []\n    seen = set()\n    for v in values:\n        if v not in seen:\n            seen.add(v)\n            result.append(v)\n    return result\n",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_5(values):\\n    result = []\\n    seen = set()\\n    for v in values:\\n        if v not in seen:\\n            seen.add(v)\\n            result.append(v)\\n    return result\\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-7",
+    "condition": "boundary",
+    "turn": 1,
+    "invalid": "Invalid control character at: line 3 column 200 (char 214)",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_7(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-7",
+    "condition": "boundary",
+    "turn": 2,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_7(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_7(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-6",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_6(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_6(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-2",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_2(values):\n    seen = set()\n    result = []\n    for value in values:\n        if value not in seen:\n            seen.add(value)\n            result.append(value)\n    return result",
+    "raw_output": "{\"files\": {\"app.py\": \"def unique_2(values):\\n    seen = set()\\n    result = []\\n    for value in values:\\n        if value not in seen:\\n            seen.add(value)\\n            result.append(value)\\n    return result\"}}\n"
+  },
+  {
+    "root": "chunks-7",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_7(values, size):\n    if size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "{\"files\": {\"app.py\": \"def chunks_7(values, size):\\n    if size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"}}\n"
+  },
+  {
+    "root": "chunks-5",
+    "condition": "boundary",
+    "turn": 1,
+    "invalid": "Invalid control character at: line 3 column 200 (char 214)",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_5(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-5",
+    "condition": "boundary",
+    "turn": 2,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_5(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_5(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-1",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_1(values):\n    result = []\n    seen = set()\n    for value in values:\n        if value not in seen:\n            seen.add(value)\n            result.append(value)\n    return result",
+    "raw_output": "{\"files\": {\"app.py\": \"def unique_1(values):\\n    result = []\\n    seen = set()\\n    for value in values:\\n        if value not in seen:\\n            seen.add(value)\\n            result.append(value)\\n    return result\"}}\n"
+  },
+  {
+    "root": "unique-3",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_3(values):\n    result = []\n    seen = set()\n    for value in values:\n        if value not in seen:\n            seen.add(value)\n            result.append(value)\n    return result",
+    "raw_output": "{\"files\": {\"app.py\": \"def unique_3(values):\\n    result = []\\n    seen = set()\\n    for value in values:\\n        if value not in seen:\\n            seen.add(value)\\n            result.append(value)\\n    return result\"}}\n"
+  },
+  {
+    "root": "clamp-3",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_3(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_3(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-2",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_2(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_2(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-7",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_7(values):\n    seen = set()\n    result = []\n    for v in values:\n        if v not in seen:\n            seen.add(v)\n            result.append(v)\n    return result\n",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_7(values):\\n    seen = set()\\n    result = []\\n    for v in values:\\n        if v not in seen:\\n            seen.add(v)\\n            result.append(v)\\n    return result\\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-0",
+    "condition": "generic",
+    "turn": 1,
+    "invalid": "Invalid control character at: line 3 column 200 (char 214)",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_0(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-0",
+    "condition": "generic",
+    "turn": 2,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_0(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_0(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-0",
+    "condition": "boundary",
+    "turn": 1,
+    "invalid": "Invalid control character at: line 3 column 200 (char 214)",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_0(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-0",
+    "condition": "boundary",
+    "turn": 2,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_0(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_0(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-2",
+    "condition": "boundary",
+    "turn": 1,
+    "invalid": "Invalid control character at: line 3 column 200 (char 214)",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_2(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-2",
+    "condition": "boundary",
+    "turn": 2,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_2(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_2(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-1",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_1(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_1(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-6",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_6(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "{\"files\": {\"app.py\": \"def chunks_6(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"}}\n"
+  },
+  {
+    "root": "unique-0",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_0(values):\n    seen = set()\n    result = []\n    for value in values:\n        if value not in seen:\n            seen.add(value)\n            result.append(value)\n    return result",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_0(values):\\n    seen = set()\\n    result = []\\n    for value in values:\\n        if value not in seen:\\n            seen.add(value)\\n            result.append(value)\\n    return result\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-4",
+    "condition": "boundary",
+    "turn": 1,
+    "invalid": "Invalid control character at: line 3 column 200 (char 214)",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_4(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-4",
+    "condition": "boundary",
+    "turn": 2,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_4(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_4(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-5",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_5(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "{\"files\": {\"app.py\": \"def chunks_5(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"}}\n"
+  },
+  {
+    "root": "unique-3",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_3(values):\n    seen = set()\n    result = []\n    for value in values:\n        if value not in seen:\n            seen.add(value)\n            result.append(value)\n    return result",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_3(values):\\n    seen = set()\\n    result = []\\n    for value in values:\\n        if value not in seen:\\n            seen.add(value)\\n            result.append(value)\\n    return result\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-3",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_3(x, low, high):\n    return max(low, min(x, high))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_3(x, low, high):\\n    return max(low, min(x, high))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-5",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_5(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_5(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-7",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_7(values):\n    seen = set()\n    result = []\n    for v in values:\n        if v not in seen:\n            seen.add(v)\n            result.append(v)\n    return result",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_7(values):\\n    seen = set()\\n    result = []\\n    for v in values:\\n        if v not in seen:\\n            seen.add(v)\\n            result.append(v)\\n    return result\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-2",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_2(values):\n    seen = set()\n    result = []\n    for value in values:\n        if value not in seen:\n            seen.add(value)\n            result.append(value)\n    return result",
+    "raw_output": "{\"files\": {\"app.py\": \"def unique_2(values):\\n    seen = set()\\n    result = []\\n    for value in values:\\n        if value not in seen:\\n            seen.add(value)\\n            result.append(value)\\n    return result\"}}\n"
+  },
+  {
+    "root": "chunks-1",
+    "condition": "boundary",
+    "turn": 1,
+    "invalid": "Invalid control character at: line 3 column 200 (char 214)",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_1(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-1",
+    "condition": "boundary",
+    "turn": 2,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_1(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_1(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-1",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_1(values):\n    seen = set()\n    result = []\n    for value in values:\n        if value not in seen:\n            seen.add(value)\n            result.append(value)\n    return result",
+    "raw_output": "{\"files\": {\"app.py\": \"def unique_1(values):\\n    seen = set()\\n    result = []\\n    for value in values:\\n        if value not in seen:\\n            seen.add(value)\\n            result.append(value)\\n    return result\"}}\n"
+  },
+  {
+    "root": "chunks-3",
+    "condition": "boundary",
+    "turn": 1,
+    "invalid": "Invalid control character at: line 3 column 200 (char 214)",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_3(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-3",
+    "condition": "boundary",
+    "turn": 2,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_3(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def chunks_3(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-4",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_4(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "{\"files\": {\"app.py\": \"def clamp_4(x, low, high):\\n    return max(low, min(high, x))\"}}\n"
+  },
+  {
+    "root": "clamp-4",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_4(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_4(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-0",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_0(x, low, high):\n    return max(low, min(x, high))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_0(x, low, high):\\n    return max(low, min(x, high))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-7",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_7(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_7(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-4",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_4(values):\n    result = []\n    seen = set()\n    for v in values:\n        if v not in seen:\n            seen.add(v)\n            result.append(v)\n    return result\n",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_4(values):\\n    result = []\\n    seen = set()\\n    for v in values:\\n        if v not in seen:\\n            seen.add(v)\\n            result.append(v)\\n    return result\\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-5",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_5(values):\n    seen = set()\n    result = []\n    for v in values:\n        if v not in seen:\n            seen.add(v)\n            result.append(v)\n    return result\n",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_5(values):\\n    seen = set()\\n    result = []\\n    for v in values:\\n        if v not in seen:\\n            seen.add(v)\\n            result.append(v)\\n    return result\\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "unique-6",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def unique_6(values):\n    result = []\n    seen = set()\n    for v in values:\n        if v not in seen:\n            seen.add(v)\n            result.append(v)\n    return result\n",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def unique_6(values):\\n    result = []\\n    seen = set()\\n    for v in values:\\n        if v not in seen:\\n            seen.add(v)\\n            result.append(v)\\n    return result\\n\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "clamp-6",
+    "condition": "boundary",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def clamp_6(x, low, high):\n    return max(low, min(high, x))",
+    "raw_output": "```json\n{\n  \"files\": {\n    \"app.py\": \"def clamp_6(x, low, high):\\n    return max(low, min(high, x))\"\n  }\n}\n```\n"
+  },
+  {
+    "root": "chunks-1",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_1(values, size):\n    if size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "{\"files\": {\"app.py\": \"def chunks_1(values, size):\\n    if size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"}}\n"
+  },
+  {
+    "root": "chunks-4",
+    "condition": "generic",
+    "turn": 1,
+    "paths": [
+      "app.py"
+    ],
+    "source": "def chunks_4(values, size):\n    if not size or size <= 0:\n        return []\n    if not values:\n        return []\n    return [values[i:i+size] for i in range(0, len(values), size)]",
+    "raw_output": "{\"files\": {\"app.py\": \"def chunks_4(values, size):\\n    if not size or size <= 0:\\n        return []\\n    if not values:\\n        return []\\n    return [values[i:i+size] for i in range(0, len(values), size)]\"}}\n"
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "timestamp_utc": "2026-09-13T14:43:52.754502+00:00",
+  "source_revision": "f408073dc1134f61f960a4e48515ff0450ce8dde",
+  "guidance": {},
+  "archives": {
+    "foundation_layer17_collection.zip": {
+      "present": true,
+      "bytes": 2109047516,
+      "sha256": "2c3b4c549f9782e34a56f93f9806607ec92bd75302c5039cd29ce4fa56af7dc1",
+      "matches_manifest": true,
+      "entries": 11,
+      "expanded_bytes": 2109046172,
+      "manifests": [
+        "collection_provenance.json",
+        "corpus_manifest.json"
+      ]
+    },
+    "foundation_layer22_collection.zip": {
+      "present": true,
+      "bytes": 2209788512,
+      "sha256": "9ff9e900c45e1de574e6edf943146e5cd0064309798d0d02ff7af40182691f29",
+      "matches_manifest": true,
+      "entries": 11,
+      "expanded_bytes": 2209787048,
+      "manifests": [
+        "collection_provenance.json",
+        "corpus_manifest.json"
+      ]
+    },
+    "foundation_native_residuals.zip": {
+      "present": true,
+      "bytes": 2108028016,
+      "sha256": "33c866d2d8a39e83ec00f69abb26ff2570ba421ff1df769d0705371bf335561e",
+      "matches_manifest": true,
+      "entries": 2880,
+      "expanded_bytes": 2107352154,
+      "manifests": []
+    },
+    "foundation_analysis.zip": {
+      "present": true,
+      "bytes": 593524722,
+      "sha256": "81f87644f770f9c53d3fc99cce5d6cd2cf0e9f7f03d94d40600cd78737bf0efd",
+      "matches_manifest": true,
+      "entries": 834,
+      "expanded_bytes": 706949800,
+      "manifests": [
+        "data/processed/gemma4b_foundation_v1_l17/corpus_manifest.json",
+        "data/processed/gemma4b_foundation_v1_l17/collection_provenance.json",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/analysis_complete.json",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/coverage_complete.json",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/replay_complete.json",
+        "data/processed/gemma4b_foundation_v1_l22/corpus_manifest.json",
+        "data/processed/gemma4b_foundation_v1_l22/collection_provenance.json",
+        "data/processed/gemma4b_foundation_v1_l22/geometry/analysis_complete.json",
+        "data/processed/gemma4b_foundation_v1_l22/geometry/coverage_complete.json",
+        "data/processed/gemma4b_foundation_v1_l22/geometry/replay_complete.json"
+      ]
+    },
+    "foundation_final_delta.zip": {
+      "present": true,
+      "bytes": 118128086,
+      "sha256": "acb87477c0fc6c466e5f012086413bfe449f55157a7e583dce1552465f17e7c8",
+      "matches_manifest": true,
+      "entries": 44,
+      "expanded_bytes": 135881489,
+      "manifests": [
+        "data/processed/gemma4b_foundation_v1_l17/secondary_complete.json",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/consistency_complete.json",
+        "data/processed/gemma4b_foundation_v1_l22/secondary_complete.json",
+        "data/processed/gemma4b_foundation_v1_l22/geometry/consistency_complete.json"
+      ]
+    },
+    "foundation_runtime_sources.zip": {
+      "present": true,
+      "bytes": 528985,
+      "sha256": "5145006a71acfeaf8c7f6aa33be0f7d31a0f79d99b9d5fdb44c0382d746dac95",
+      "matches_manifest": true,
+      "entries": 113,
+      "expanded_bytes": 1755924,
+      "manifests": [
+        "src/sae_feature_atlas/pipeline/manifest.py",
+        "runtime_source_manifest.json"
+      ]
+    },
+    "context_intervention_results.zip": {
+      "bytes": 4018930,
+      "sha256": "47804b26d5b4a1d5fc7b4fefae596169da25aafa9df232342299c896e02362fc",
+      "entries": 201,
+      "expanded_bytes": 14248368,
+      "manifests": [
+        "pilot/plan.json",
+        "full_v3/complete.json",
+        "full_v3/provenance.json",
+        "environment.json"
+      ],
+      "source_files": []
+    },
+    "context_download_v3/executed_bundle.zip": {
+      "bytes": 987462,
+      "sha256": "c2ac659d69eb855ee34c22c6378ddcd9b34b1355c20442895a64c2720782414c",
+      "entries": 84,
+      "expanded_bytes": 1591621,
+      "manifests": [
+        "pilot/plan.json"
+      ],
+      "source_files": [
+        "src/sae_feature_atlas/scientific/intervention_prepare.py",
+        "src/sae_feature_atlas/scientific/intervention_analysis.py",
+        "src/sae_feature_atlas/scientific/intervention_run.py",
+        "src/sae_feature_atlas/scientific/intervention_math.py"
+      ]
+    }
+  },
+  "cache": {
+    "models--google--gemma-3-4b-pt": {
+      "snapshots/cc012e0a6d0787b4adcc0fa2c4da74402494554d/model.safetensors.index.json": 90558,
+      "snapshots/cc012e0a6d0787b4adcc0fa2c4da74402494554d/tokenizer.json": 33384570,
+      "snapshots/cc012e0a6d0787b4adcc0fa2c4da74402494554d/config.json": 815,
+      "snapshots/cc012e0a6d0787b4adcc0fa2c4da74402494554d/model-00002-of-00002.safetensors": 3639026128,
+      "snapshots/cc012e0a6d0787b4adcc0fa2c4da74402494554d/model-00001-of-00002.safetensors": 4961251752
+    },
+    "models--google--gemma-scope-2-1b-pt": {
+      "snapshots/b738dc06961818c011fb2e44a316352ca0f4e873/resid_post/layer_13_width_16k_l0_medium/params.safetensors": 151131000,
+      "snapshots/b738dc06961818c011fb2e44a316352ca0f4e873/resid_post/layer_13_width_16k_l0_medium/config.json": 247
+    },
+    "models--google--gemma-3-1b-pt": {
+      "snapshots/fcf18a2a879aab110ca39f8bffbccd5d49d8eb29/tokenizer.json": 33384570,
+      "snapshots/fcf18a2a879aab110ca39f8bffbccd5d49d8eb29/config.json": 880,
+      "snapshots/fcf18a2a879aab110ca39f8bffbccd5d49d8eb29/model.safetensors": 1999811208
+    },
+    "models--google--gemma-scope-2-4b-pt": {
+      "snapshots/a0ffd6132a985bc84077a66d1a1033e10b604fa8/resid_post/layer_17_width_16k_l0_small/params.safetensors": 335686016,
+      "snapshots/a0ffd6132a985bc84077a66d1a1033e10b604fa8/resid_post/layer_17_width_16k_l0_small/config.json": 247,
+      "snapshots/a0ffd6132a985bc84077a66d1a1033e10b604fa8/resid_post/layer_17_width_65k_l0_medium/params.safetensors": 1342712192,
+      "snapshots/a0ffd6132a985bc84077a66d1a1033e10b604fa8/resid_post/layer_17_width_65k_l0_medium/config.json": 247
+    }
+  },
+  "audit_seconds": 5.833910013000008
+}

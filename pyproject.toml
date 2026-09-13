@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "model-behavior-research"
+version = "0.1.0"
+description = "Reproducible empirical studies of model representations and behavior."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Serafim Tkachenko"}]
+dependencies = ["sae-feature-atlas @ git+https://github.com/serafim-tkachenko/sae-feature-atlas.git@553b89f4da20145fd92e1e20be192faac6dc8fa8", "reportlab"]
+
+[project.urls]
+Repository = "https://github.com/serafim-tkachenko/model-behavior-research"
+
+[dependency-groups]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

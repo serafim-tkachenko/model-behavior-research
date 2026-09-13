@@ -1,0 +1,548 @@
+{
+  "release": "evidence-2026-09-13",
+  "repository": "serafim-tkachenko/model-behavior-research",
+  "archives": [
+    {
+      "name": "context_intervention_bundle.zip",
+      "size": 987462,
+      "sha256": "c2ac659d69eb855ee34c22c6378ddcd9b34b1355c20442895a64c2720782414c",
+      "members": 84,
+      "roots": [
+        "README.md",
+        "experiments",
+        "intervention_bundle_manifest.json",
+        "pilot",
+        "pyproject.toml",
+        "requirements",
+        "src"
+      ],
+      "examples": [
+        "src/sae_feature_atlas/app.py",
+        "src/sae_feature_atlas/__init__.py",
+        "src/sae_feature_atlas/storage/run.py",
+        "src/sae_feature_atlas/storage/__init__.py",
+        "src/sae_feature_atlas/scientific/intervention_prepare.py"
+      ],
+      "parts": [
+        {
+          "name": "context_intervention_bundle.zip",
+          "size": 987462,
+          "sha256": "c2ac659d69eb855ee34c22c6378ddcd9b34b1355c20442895a64c2720782414c"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/context_intervention_bundle"
+    },
+    {
+      "name": "context_intervention_bundle_v2.zip",
+      "size": 986685,
+      "sha256": "3e4972855c3cc4011f16ea7ea93224323a6b2739efa8ec9614558d29f69e61fb",
+      "members": 84,
+      "roots": [
+        "README.md",
+        "experiments",
+        "intervention_bundle_manifest.json",
+        "pilot",
+        "pyproject.toml",
+        "requirements",
+        "src"
+      ],
+      "examples": [
+        "src/sae_feature_atlas/app.py",
+        "src/sae_feature_atlas/__init__.py",
+        "src/sae_feature_atlas/storage/run.py",
+        "src/sae_feature_atlas/storage/__init__.py",
+        "src/sae_feature_atlas/scientific/intervention_prepare.py"
+      ],
+      "parts": [
+        {
+          "name": "context_intervention_bundle_v2.zip",
+          "size": 986685,
+          "sha256": "3e4972855c3cc4011f16ea7ea93224323a6b2739efa8ec9614558d29f69e61fb"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/context_intervention_bundle_v2"
+    },
+    {
+      "name": "context_intervention_report.zip",
+      "size": 1377528,
+      "sha256": "80dad6e61e2d6e64b30b0a87c9a4d992623d23156534fe63ac4e9b89dfe5eaee",
+      "members": 25,
+      "roots": [
+        "01_direction_controls.png",
+        "01_direction_controls.svg",
+        "02_normalization_diagnostic.png",
+        "02_normalization_diagnostic.svg",
+        "03_layer_trajectory.png",
+        "03_layer_trajectory.svg",
+        "04_prediction_check.png",
+        "04_prediction_check.svg",
+        "05_prediction_quality.png",
+        "05_prediction_quality.svg",
+        "06_paired_control_check.png",
+        "06_paired_control_check.svg",
+        "analysis_manifest.json",
+        "delivery_validation.json",
+        "equations.png",
+        "exclusions.json",
+        "interventions.csv",
+        "paired_control_summary.csv",
+        "pooled_check_controls.csv",
+        "prediction_errors.csv",
+        "prediction_improvement.csv",
+        "report.md",
+        "report.pdf",
+        "report_manifest.json",
+        "verification.json"
+      ],
+      "examples": [
+        "01_direction_controls.png",
+        "01_direction_controls.svg",
+        "02_normalization_diagnostic.png",
+        "02_normalization_diagnostic.svg",
+        "03_layer_trajectory.png"
+      ],
+      "parts": [
+        {
+          "name": "context_intervention_report.zip",
+          "size": 1377528,
+          "sha256": "80dad6e61e2d6e64b30b0a87c9a4d992623d23156534fe63ac4e9b89dfe5eaee"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/context_intervention_report"
+    },
+    {
+      "name": "context_intervention_results.zip",
+      "size": 4018930,
+      "sha256": "47804b26d5b4a1d5fc7b4fefae596169da25aafa9df232342299c896e02362fc",
+      "members": 201,
+      "roots": [
+        "environment.json",
+        "executed_bundle.zip",
+        "full_v3",
+        "job.log",
+        "pilot"
+      ],
+      "examples": [
+        "pilot/config.json",
+        "pilot/plan.json",
+        "pilot/prompts.jsonl",
+        "pilot/vectors.npz",
+        "full_v3/complete.json"
+      ],
+      "parts": [
+        {
+          "name": "context_intervention_results.zip",
+          "size": 4018930,
+          "sha256": "47804b26d5b4a1d5fc7b4fefae596169da25aafa9df232342299c896e02362fc"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/context_intervention_results"
+    },
+    {
+      "name": "foundation_analysis.zip",
+      "size": 593524722,
+      "sha256": "81f87644f770f9c53d3fc99cce5d6cd2cf0e9f7f03d94d40600cd78737bf0efd",
+      "members": 834,
+      "roots": [
+        "data"
+      ],
+      "examples": [
+        "data/processed/gemma4b_foundation_v1_l17/regime_coactivation.parquet",
+        "data/processed/gemma4b_foundation_v1_l17/regime_weak_matched_controls.parquet",
+        "data/processed/gemma4b_foundation_v1_l17/regime_neighborhood_comparison.parquet",
+        "data/processed/gemma4b_foundation_v1_l17/regime_matched_controls.parquet",
+        "data/processed/gemma4b_foundation_v1_l17/regime_null_results.parquet"
+      ],
+      "parts": [
+        {
+          "name": "foundation_analysis.zip",
+          "size": 593524722,
+          "sha256": "81f87644f770f9c53d3fc99cce5d6cd2cf0e9f7f03d94d40600cd78737bf0efd"
+        }
+      ],
+      "suggested_destination": "."
+    },
+    {
+      "name": "foundation_colab_bundle.zip",
+      "size": 23344144,
+      "sha256": "f4f64c1fb0c349cd4b4bd1c977b24cf624d793d7643c7294d9c01d00994c6ed8",
+      "members": 115,
+      "roots": [
+        "README.md",
+        "data",
+        "docs",
+        "foundation_bundle_manifest.json",
+        "pyproject.toml",
+        "requirements",
+        "scripts",
+        "src",
+        "tests",
+        "uv.lock"
+      ],
+      "examples": [
+        "README.md",
+        "data/raw/foundation_smoke_v2/corpus_manifest.json",
+        "data/raw/foundation_smoke_v2/texts.jsonl",
+        "data/raw/foundation_v1/corpus_manifest.json",
+        "data/raw/foundation_v1/duplicate_audit.json"
+      ],
+      "parts": [
+        {
+          "name": "foundation_colab_bundle.zip",
+          "size": 23344144,
+          "sha256": "f4f64c1fb0c349cd4b4bd1c977b24cf624d793d7643c7294d9c01d00994c6ed8"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/foundation_colab_bundle"
+    },
+    {
+      "name": "foundation_final_delta.zip",
+      "size": 118128086,
+      "sha256": "acb87477c0fc6c466e5f012086413bfe449f55157a7e583dce1552465f17e7c8",
+      "members": 44,
+      "roots": [
+        "data"
+      ],
+      "examples": [
+        "data/processed/gemma4b_foundation_v1_l17/secondary_complete.json",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/consistency_complete.json",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/decoder_context_consistency.parquet",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/decoder_pca.parquet",
+        "data/processed/gemma4b_foundation_v1_l22/regime_coactivation.parquet"
+      ],
+      "parts": [
+        {
+          "name": "foundation_final_delta.zip",
+          "size": 118128086,
+          "sha256": "acb87477c0fc6c466e5f012086413bfe449f55157a7e583dce1552465f17e7c8"
+        }
+      ],
+      "suggested_destination": "."
+    },
+    {
+      "name": "foundation_layer17_collection.zip",
+      "size": 2109047516,
+      "sha256": "2c3b4c549f9782e34a56f93f9806607ec92bd75302c5039cd29ce4fa56af7dc1",
+      "members": 11,
+      "roots": [
+        "collection_provenance.json",
+        "collection_source.py",
+        "corpus_manifest.json",
+        "environment_freeze.txt",
+        "foundation_design.json",
+        "lineage.json",
+        "sae_activations_positive.parquet",
+        "sanity_check.json",
+        "source_texts.jsonl",
+        "token_activation_summary.parquet",
+        "token_metadata.parquet"
+      ],
+      "examples": [
+        "collection_provenance.json",
+        "collection_source.py",
+        "corpus_manifest.json",
+        "environment_freeze.txt",
+        "foundation_design.json"
+      ],
+      "parts": [
+        {
+          "name": "foundation_layer17_collection.zip.part01",
+          "size": 1073741824,
+          "sha256": "ccc98da8bcc830aa4429dd18ea99966b9d157aef2a1a9cfd89b5c8668681979e"
+        },
+        {
+          "name": "foundation_layer17_collection.zip.part02",
+          "size": 1035305692,
+          "sha256": "b4d44f00a882bf8c58756aaf0d4cd80856c5d1a6d383a60b105244bb5db810e1"
+        }
+      ],
+      "suggested_destination": "data/processed/gemma4b_foundation_v1_l17"
+    },
+    {
+      "name": "foundation_layer22_collection.zip",
+      "size": 2209788512,
+      "sha256": "9ff9e900c45e1de574e6edf943146e5cd0064309798d0d02ff7af40182691f29",
+      "members": 11,
+      "roots": [
+        "collection_provenance.json",
+        "collection_source.py",
+        "corpus_manifest.json",
+        "environment_freeze.txt",
+        "foundation_design.json",
+        "lineage.json",
+        "sae_activations_positive.parquet",
+        "sanity_check.json",
+        "source_texts.jsonl",
+        "token_activation_summary.parquet",
+        "token_metadata.parquet"
+      ],
+      "examples": [
+        "collection_provenance.json",
+        "collection_source.py",
+        "corpus_manifest.json",
+        "environment_freeze.txt",
+        "foundation_design.json"
+      ],
+      "parts": [
+        {
+          "name": "foundation_layer22_collection.zip.part01",
+          "size": 1073741824,
+          "sha256": "79ee028e481e187ea17013aeeae52dd90ec62c39d84c2509b1508ffdb67fd47f"
+        },
+        {
+          "name": "foundation_layer22_collection.zip.part02",
+          "size": 1073741824,
+          "sha256": "3b1eed66594934665901c05965873f74751bb1aa407bef325f855caee0d49647"
+        },
+        {
+          "name": "foundation_layer22_collection.zip.part03",
+          "size": 62304864,
+          "sha256": "ae62b83ee54da256b4303eb505dfa0640f2997340aad88f2073b9f2517325eb6"
+        }
+      ],
+      "suggested_destination": "data/processed/gemma4b_foundation_v1_l22"
+    },
+    {
+      "name": "foundation_native_residuals.zip",
+      "size": 2108028016,
+      "sha256": "33c866d2d8a39e83ec00f69abb26ff2570ba421ff1df769d0705371bf335561e",
+      "members": 2880,
+      "roots": [
+        "data"
+      ],
+      "examples": [
+        "data/processed/gemma4b_foundation_v1_l17/geometry/residual_chunks/000000.done.json",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/residual_chunks/000000.npy",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/residual_chunks/000000.parquet",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/residual_chunks/000025.done.json",
+        "data/processed/gemma4b_foundation_v1_l17/geometry/residual_chunks/000025.npy"
+      ],
+      "parts": [
+        {
+          "name": "foundation_native_residuals.zip.part01",
+          "size": 1073741824,
+          "sha256": "d66027c25e6ee030b9196e089b1b15ad32fcb79b6ccb9f9d39c50b82971826c9"
+        },
+        {
+          "name": "foundation_native_residuals.zip.part02",
+          "size": 1034286192,
+          "sha256": "5739e8c666a9ff0516b2cc8c96ce3fc205d90a61dbaf31109806d982a729ab41"
+        }
+      ],
+      "suggested_destination": "."
+    },
+    {
+      "name": "foundation_runtime_sources.zip",
+      "size": 528985,
+      "sha256": "5145006a71acfeaf8c7f6aa33be0f7d31a0f79d99b9d5fdb44c0382d746dac95",
+      "members": 113,
+      "roots": [
+        "docs",
+        "foundation_analysis17.log",
+        "foundation_analysis17.status.json",
+        "foundation_analysis22.log",
+        "foundation_analysis22.status.json",
+        "foundation_collection.log",
+        "foundation_collection.status.json",
+        "foundation_consistency.log",
+        "foundation_consistency.status.json",
+        "foundation_coverage.log",
+        "foundation_coverage.status.json",
+        "foundation_coverage_v2.log",
+        "foundation_coverage_v2.status.json",
+        "foundation_encoder_control.log",
+        "foundation_encoder_control.status.json",
+        "foundation_examples.log",
+        "foundation_examples.status.json",
+        "foundation_geometry.log",
+        "foundation_geometry.status.json",
+        "foundation_primary17.log",
+        "foundation_primary22.log",
+        "foundation_replay_audit.log",
+        "foundation_replay_audit.status.json",
+        "foundation_secondary22.log",
+        "foundation_secondary22.status.json",
+        "foundation_secondary_resume.log",
+        "foundation_secondary_resume.status.json",
+        "geometry_pipeline.py",
+        "pyproject.toml",
+        "requirements",
+        "runtime_source_manifest.json",
+        "src",
+        "uv.lock"
+      ],
+      "examples": [
+        "src/sae_feature_atlas/app.py",
+        "src/sae_feature_atlas/__init__.py",
+        "src/sae_feature_atlas/activations/collect.py",
+        "src/sae_feature_atlas/activations/__init__.py",
+        "src/sae_feature_atlas/storage/run.py"
+      ],
+      "parts": [
+        {
+          "name": "foundation_runtime_sources.zip",
+          "size": 528985,
+          "sha256": "5145006a71acfeaf8c7f6aa33be0f7d31a0f79d99b9d5fdb44c0382d746dac95"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/foundation_runtime_sources"
+    },
+    {
+      "name": "gemma1b_regimes_positive_analysis_bundle.zip",
+      "size": 120264994,
+      "sha256": "771c9aca304e24a992cd7d8eea9335c651f43f98d09330e83cf22a31d87fa595",
+      "members": 58,
+      "roots": [
+        "data",
+        "report",
+        "sae_feature_atlas_source.zip"
+      ],
+      "examples": [
+        "sae_feature_atlas_source.zip",
+        "data/analysis_features.parquet",
+        "data/collection_provenance.json",
+        "data/collection_source.py",
+        "data/environment_freeze.txt"
+      ],
+      "parts": [
+        {
+          "name": "gemma1b_regimes_positive_analysis_bundle.zip",
+          "size": 120264994,
+          "sha256": "771c9aca304e24a992cd7d8eea9335c651f43f98d09330e83cf22a31d87fa595"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/gemma1b_regimes_positive_analysis_bundle"
+    },
+    {
+      "name": "gemma4b_foundation_report.zip",
+      "size": 7890771,
+      "sha256": "88009272a3c808442c61f8b83d6840b7b560d93c5e4032dec783aadab9604bd3",
+      "members": 94,
+      "roots": [
+        "annotation",
+        "data_archive_manifest.json",
+        "delivery_validation.json",
+        "figures",
+        "isotropic_reference.csv",
+        "report_manifest.json",
+        "reproduction_guide.md",
+        "scientific_report.md",
+        "scientific_report.pdf",
+        "tables",
+        "technical_appendix.md",
+        "verification.json"
+      ],
+      "examples": [
+        "annotation/layer17_context_examples_blinded.csv",
+        "annotation/layer17_context_examples_key.csv",
+        "annotation/layer22_context_examples_blinded.csv",
+        "annotation/layer22_context_examples_key.csv",
+        "data_archive_manifest.json"
+      ],
+      "parts": [
+        {
+          "name": "gemma4b_foundation_report.zip",
+          "size": 7890771,
+          "sha256": "88009272a3c808442c61f8b83d6840b7b560d93c5e4032dec783aadab9604bd3"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/gemma4b_foundation_report"
+    },
+    {
+      "name": "geometry_extension.zip",
+      "size": 18917,
+      "sha256": "b74062d96f45bac1036b39eaaa127d0d3532a55bb3a861c20a6053c2c3c003d7",
+      "members": 10,
+      "roots": [
+        "docs",
+        "src",
+        "tests",
+        "tmp"
+      ],
+      "examples": [
+        "docs/foundation_geometry.md",
+        "docs/foundation_execution.md",
+        "src/sae_feature_atlas/scientific/geometry_analysis.py",
+        "src/sae_feature_atlas/scientific/geometry_replay.py",
+        "src/sae_feature_atlas/scientific/geometry_plan.py"
+      ],
+      "parts": [
+        {
+          "name": "geometry_extension.zip",
+          "size": 18917,
+          "sha256": "b74062d96f45bac1036b39eaaa127d0d3532a55bb3a861c20a6053c2c3c003d7"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/geometry_extension"
+    },
+    {
+      "name": "phase1_research_report.zip",
+      "size": 6716127,
+      "sha256": "7e0dd067718dfe4c423c32859a2f0771656c691c798acb8ce7ed2543124d81a8",
+      "members": 63,
+      "roots": [
+        "build_manifest.json",
+        "delivery_validation.json",
+        "equations",
+        "foundation",
+        "pilot",
+        "raw_verification.json",
+        "report.md",
+        "report.pdf",
+        "report_manifest.json",
+        "signed",
+        "tables"
+      ],
+      "examples": [
+        "build_manifest.json",
+        "delivery_validation.json",
+        "equations/gain.png",
+        "equations/interaction.png",
+        "equations/normalization.png"
+      ],
+      "parts": [
+        {
+          "name": "phase1_research_report.zip",
+          "size": 6716127,
+          "sha256": "7e0dd067718dfe4c423c32859a2f0771656c691c798acb8ce7ed2543124d81a8"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/phase1_research_report"
+    },
+    {
+      "name": "sae_feature_atlas_source.zip",
+      "size": 458535,
+      "sha256": "1bf8d07ddcfb0a6599637c717add217403c4100c32cb0460f80b56b1b6729de3",
+      "members": 101,
+      "roots": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "docs",
+        "notebooks",
+        "pyproject.toml",
+        "requirements",
+        "scripts",
+        "source_provenance.json",
+        "src",
+        "tests",
+        "uv.lock"
+      ],
+      "examples": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "docs/analysis_workflow.md",
+        "docs/cli.md"
+      ],
+      "parts": [
+        {
+          "name": "sae_feature_atlas_source.zip",
+          "size": 458535,
+          "sha256": "1bf8d07ddcfb0a6599637c717add217403c4100c32cb0460f80b56b1b6729de3"
+        }
+      ],
+      "suggested_destination": "artifacts/extracted/sae_feature_atlas_source"
+    }
+  ]
+}
