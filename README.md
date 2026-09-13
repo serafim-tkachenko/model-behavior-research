@@ -2,6 +2,10 @@
 
 Empirical studies of model representations, interventions and coding-assistant behavior. This repository contains questions, methods, code, evidence and limitations. The reusable library lives in [SAE Feature Atlas](https://github.com/serafim-tkachenko/sae-feature-atlas).
 
+## Start here
+
+Read the [research brief](RESEARCH.md) for the question, methods, results and limits. Then inspect the [claim ledger](research/claims.md), [research status](research/STATUS.md), and [review walkthrough](research/review.md). The [proposed next experiment](experiments/coding_forensics/next_protocol.md) is separate from completed results.
+
 ## Studies and current answers
 
 | Study | Evidence | Current conclusion |
@@ -30,6 +34,7 @@ The coding pilot's complete small outputs, including the aborted run, are under 
 
 ## Repository map
 
+- `research/`: claim ledger, decisions and review workflow.
 - `src/model_behavior_research/scientific/`: study-specific SAE methods.
 - `experiments/`: configurations, coding pilot and results.
 - `scripts/` and `notebooks/`: orchestration and report builders.
