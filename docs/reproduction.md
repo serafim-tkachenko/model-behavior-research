@@ -42,8 +42,7 @@ The coding pilot needs Linux/WSL, bubblewrap, and the exact cached Qwen model re
 
 - Historical reports: all 225 tracked report files copied unchanged from the source commit.
 - Toolkit: 34 unit tests, clean environment installation, wheel/source build, and Gemma 3 1B layer-13 SAE smoke check on RTX 3080 Ti with bfloat16 residuals.
-- Research: 28 method tests passed during the namespace split; final clean-environment results are recorded by repository CI.
+- Research: 28 method tests passed in the clean locked environment; the coding harness passed 96 task/control checks. Repository CI repeats package tests and builds.
 - Publication checks: archive inventories and SHA-256 hashes; credential-pattern scan of text members and repository source. This is not an independent review of the scientific claims.
 
 See [contribution disclosure](../CONTRIBUTIONS.md) for the role of LLM assistance. Human review, independent annotation and independent replication must be reported only when actually performed.
-

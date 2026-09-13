@@ -10,9 +10,9 @@ for folder in ("src", "tests", "scripts", "requirements", "docs"):
     files.extend(
         p
         for p in Path(folder).rglob("*")
-        if p.is_file() and "__pycache__" not in p.parts and p.suffix != ".pyc"
+        if p.is_file() and "__pycache__" not in p.parts and not any(part.endswith(".egg-info") for part in p.parts) and p.suffix != ".pyc"
     )
-files += [Path(name) for name in ("pyproject.toml", "uv.lock", "README.md")]
+files += [Path(name) for name in ("pyproject.toml", "uv.lock", "README.md", "LICENSE", "DATA_SOURCES.md")]
 for folder in ("data/raw/foundation_v1", "data/raw/foundation_smoke_v2"):
     files.extend(p for p in Path(folder).glob("*") if p.is_file())
 manifest = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(files)}

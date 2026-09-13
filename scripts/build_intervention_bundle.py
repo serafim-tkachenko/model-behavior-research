@@ -19,9 +19,9 @@ files = [
     (p, str(p))
     for folder in ["src", "experiments", "requirements"]
     for p in Path(folder).rglob("*")
-    if p.is_file() and "__pycache__" not in p.parts
+    if p.is_file() and "__pycache__" not in p.parts and not any(part.endswith(".egg-info") for part in p.parts)
 ]
-files += [(Path(n), n) for n in ["pyproject.toml", "README.md"]]
+files += [(Path(n), n) for n in ["pyproject.toml", "uv.lock", "README.md", "LICENSE", "DATA_SOURCES.md"]]
 files += [(args.prepared / n, "pilot/" + n) for n in ["plan.json", *plan["files"]]]
 args.out.parent.mkdir(parents=True, exist_ok=True)
 with zipfile.ZipFile(args.out, "w", zipfile.ZIP_DEFLATED) as z:

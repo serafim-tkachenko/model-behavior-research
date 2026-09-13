@@ -5,3 +5,7 @@ reports/gemma4b_foundation_v1/annotation/*.csv -whitespace
 reports/gemma4b_foundation_v1/figures/*.svg -diff -whitespace
 reports/context_intervention_pilot_v1/*.svg -diff -whitespace
 reports/context_intervention_pilot_v1/signed_analysis/*.svg -diff -whitespace
+
+# Preserve frozen evidence byte-for-byte, including CSV line endings.
+evidence/** -text -whitespace
+evidence/**/*.svg -diff
