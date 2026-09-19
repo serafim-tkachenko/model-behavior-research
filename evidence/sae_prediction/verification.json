@@ -1,0 +1,16 @@
+{
+  "scope": "Saved-inference reanalysis. Constants added retrospectively; no fresh GPU run.",
+  "archive_sha256": "47804b26d5b4a1d5fc7b4fefae596169da25aafa9df232342299c896e02362fc",
+  "prompt_files_verified": 96,
+  "factorial_comparisons": 5376,
+  "duplicate_groups": 95,
+  "fit_check_groups_disjoint": true,
+  "saved_prediction_errors_reproduced": 768,
+  "max_prediction_error_difference": 9.93129189996722e-17,
+  "max_interaction_difference": 0.0,
+  "pooled_check_groups_per_feature": {
+    "1645": 16,
+    "2966": 16,
+    "28027": 16
+  }
+}
