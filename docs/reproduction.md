@@ -10,6 +10,24 @@ uv run python experiments/coding_forensics/pilot.py --validate
 
 The lock is the current development environment, not a claim that historical experiments used these package versions. Frozen runtime sources, environment_freeze.txt files, Colab requirements and the original source ZIP preserve historical execution. Exact numerical reproduction should use the recorded runtime and model/data revisions. Namespace changes are described in [migration](migration.md).
 
+## Current SAE report
+
+Build the figures and PDF from the committed evidence tables, without model weights:
+
+~~~bash
+uv run python scripts/build_sae_context_report.py
+~~~
+
+To reconstruct the prediction tables and constant baselines, obtain `context_intervention_results.zip` using the [artifact inventory](../artifacts/README.md), then run:
+
+~~~bash
+uv run python scripts/check_prediction_baselines.py --archive .release/context_intervention_results.zip
+~~~
+
+The default destination is `evidence/sae_prediction/`; use `--output /tmp/sae-recheck` for a separate comparison. The script verifies prompt hashes and fit/check group separation, reconstructs factorial interactions, and compares all 768 historical prediction errors before adding zero and fit-mean baselines. Means are estimated only on the fit cases, separately by feature, dose and training source. In source-transfer rows the test source is the other source. Pooled summaries average case-level MSE across both doses. The constants were added retrospectively; the script does not make the old check set fresh confirmation data.
+
+The [current report](../reports/sae_context_study/report.md) supersedes the earlier report's presentation. The earlier report and its manifests remain unchanged for historical reproduction.
+
 ## Saved evidence without GPU inference
 
 Reports and their tables are available immediately after cloning. Complete coding pilot outputs are under evidence/coding_forensics. Audit the completed run without loading a model:
@@ -45,4 +63,4 @@ The coding pilot needs Linux/WSL, bubblewrap, and the exact cached Qwen model re
 - Research: 28 method tests passed in the clean locked environment; the coding harness passed 96 task/control checks. Repository CI repeats package tests and builds.
 - Publication checks: archive inventories and SHA-256 hashes; credential-pattern scan of text members and repository source. This is not an independent review of the scientific claims.
 
-See [contribution disclosure](../CONTRIBUTIONS.md) for the role of LLM assistance. Human review, independent annotation and independent replication must be reported only when actually performed.
+Saved-output checks establish consistency with archived inference. They do not constitute a fresh model run or independent replication.

@@ -253,7 +253,4 @@ balance of predefined behaviors; learned versus matched-control dose responses;
 normalization diagnostics; pathway ablation/rescue; and dictionary replication.
 Extra decorative plots cannot replace a missing link in that chain.
 
-The immediate handoff is to turn this note into a small pilot specification at
-ordinary reasoning effort. The existing Markdown/PDF remains a foundation report.
-Its related work should be updated together in the next report revision; no new
-causal results should appear there until the proposed tests have actually run.
+This document records an earlier research proposal. For completed results and the later constant-baseline comparison, see the [current report](../reports/sae_context_study/report.md). No follow-up experiment is committed.
