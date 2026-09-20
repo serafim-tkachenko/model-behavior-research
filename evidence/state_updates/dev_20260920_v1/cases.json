@@ -1,0 +1,800 @@
+[
+  {
+    "id": "dev-0-0",
+    "target": "ring",
+    "initial": {
+      "key": "A",
+      "coin": "B",
+      "ring": "B",
+      "pen": "B"
+    },
+    "events": [
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "final": {
+      "key": "A",
+      "coin": "B",
+      "ring": "A",
+      "pen": "B"
+    },
+    "lag": 0
+  },
+  {
+    "id": "dev-0-1",
+    "target": "coin",
+    "initial": {
+      "key": "B",
+      "coin": "C",
+      "ring": "A",
+      "pen": "A"
+    },
+    "events": [
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "final": {
+      "key": "B",
+      "coin": "B",
+      "ring": "A",
+      "pen": "A"
+    },
+    "lag": 0
+  },
+  {
+    "id": "dev-0-2",
+    "target": "ring",
+    "initial": {
+      "key": "C",
+      "coin": "B",
+      "ring": "A",
+      "pen": "A"
+    },
+    "events": [
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "final": {
+      "key": "C",
+      "coin": "B",
+      "ring": "C",
+      "pen": "A"
+    },
+    "lag": 0
+  },
+  {
+    "id": "dev-0-3",
+    "target": "key",
+    "initial": {
+      "key": "B",
+      "coin": "B",
+      "ring": "B",
+      "pen": "A"
+    },
+    "events": [
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "final": {
+      "key": "A",
+      "coin": "B",
+      "ring": "B",
+      "pen": "A"
+    },
+    "lag": 0
+  },
+  {
+    "id": "dev-0-4",
+    "target": "pen",
+    "initial": {
+      "key": "B",
+      "coin": "B",
+      "ring": "C",
+      "pen": "C"
+    },
+    "events": [
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "final": {
+      "key": "B",
+      "coin": "B",
+      "ring": "C",
+      "pen": "B"
+    },
+    "lag": 0
+  },
+  {
+    "id": "dev-0-5",
+    "target": "ring",
+    "initial": {
+      "key": "C",
+      "coin": "C",
+      "ring": "A",
+      "pen": "B"
+    },
+    "events": [
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "final": {
+      "key": "C",
+      "coin": "C",
+      "ring": "C",
+      "pen": "B"
+    },
+    "lag": 0
+  },
+  {
+    "id": "dev-4-0",
+    "target": "ring",
+    "initial": {
+      "key": "B",
+      "coin": "A",
+      "ring": "B",
+      "pen": "B"
+    },
+    "events": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "final": {
+      "key": "A",
+      "coin": "C",
+      "ring": "A",
+      "pen": "B"
+    },
+    "lag": 4
+  },
+  {
+    "id": "dev-4-1",
+    "target": "ring",
+    "initial": {
+      "key": "B",
+      "coin": "A",
+      "ring": "C",
+      "pen": "A"
+    },
+    "events": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "final": {
+      "key": "A",
+      "coin": "B",
+      "ring": "B",
+      "pen": "C"
+    },
+    "lag": 4
+  },
+  {
+    "id": "dev-4-2",
+    "target": "key",
+    "initial": {
+      "key": "A",
+      "coin": "C",
+      "ring": "A",
+      "pen": "B"
+    },
+    "events": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "final": {
+      "key": "C",
+      "coin": "B",
+      "ring": "A",
+      "pen": "C"
+    },
+    "lag": 4
+  },
+  {
+    "id": "dev-4-3",
+    "target": "pen",
+    "initial": {
+      "key": "B",
+      "coin": "C",
+      "ring": "C",
+      "pen": "B"
+    },
+    "events": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "final": {
+      "key": "B",
+      "coin": "B",
+      "ring": "C",
+      "pen": "A"
+    },
+    "lag": 4
+  },
+  {
+    "id": "dev-4-4",
+    "target": "ring",
+    "initial": {
+      "key": "B",
+      "coin": "A",
+      "ring": "C",
+      "pen": "B"
+    },
+    "events": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "final": {
+      "key": "A",
+      "coin": "A",
+      "ring": "B",
+      "pen": "C"
+    },
+    "lag": 4
+  },
+  {
+    "id": "dev-4-5",
+    "target": "pen",
+    "initial": {
+      "key": "B",
+      "coin": "B",
+      "ring": "B",
+      "pen": "A"
+    },
+    "events": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "final": {
+      "key": "B",
+      "coin": "C",
+      "ring": "A",
+      "pen": "C"
+    },
+    "lag": 4
+  },
+  {
+    "id": "dev-12-0",
+    "target": "coin",
+    "initial": {
+      "key": "A",
+      "coin": "B",
+      "ring": "A",
+      "pen": "B"
+    },
+    "events": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "final": {
+      "key": "A",
+      "coin": "A",
+      "ring": "B",
+      "pen": "C"
+    },
+    "lag": 12
+  },
+  {
+    "id": "dev-12-1",
+    "target": "ring",
+    "initial": {
+      "key": "C",
+      "coin": "A",
+      "ring": "C",
+      "pen": "B"
+    },
+    "events": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "final": {
+      "key": "B",
+      "coin": "A",
+      "ring": "B",
+      "pen": "A"
+    },
+    "lag": 12
+  },
+  {
+    "id": "dev-12-2",
+    "target": "pen",
+    "initial": {
+      "key": "C",
+      "coin": "B",
+      "ring": "B",
+      "pen": "A"
+    },
+    "events": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "final": {
+      "key": "C",
+      "coin": "B",
+      "ring": "B",
+      "pen": "C"
+    },
+    "lag": 12
+  },
+  {
+    "id": "dev-12-3",
+    "target": "ring",
+    "initial": {
+      "key": "B",
+      "coin": "C",
+      "ring": "B",
+      "pen": "C"
+    },
+    "events": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "final": {
+      "key": "C",
+      "coin": "B",
+      "ring": "A",
+      "pen": "B"
+    },
+    "lag": 12
+  },
+  {
+    "id": "dev-12-4",
+    "target": "coin",
+    "initial": {
+      "key": "B",
+      "coin": "C",
+      "ring": "A",
+      "pen": "C"
+    },
+    "events": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "final": {
+      "key": "A",
+      "coin": "B",
+      "ring": "A",
+      "pen": "A"
+    },
+    "lag": 12
+  },
+  {
+    "id": "dev-12-5",
+    "target": "key",
+    "initial": {
+      "key": "A",
+      "coin": "C",
+      "ring": "B",
+      "pen": "C"
+    },
+    "events": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "final": {
+      "key": "C",
+      "coin": "C",
+      "ring": "A",
+      "pen": "A"
+    },
+    "lag": 12
+  }
+]
