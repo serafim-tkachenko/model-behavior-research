@@ -36,6 +36,10 @@ uv run python scripts/build_sae_context_report.py
 
 Building the report uses committed tables and needs no GPU. Reconstructing those tables from saved inference requires the released intervention archive; rerunning model inference requires model access and a GPU. The [reproduction guide](docs/reproduction.md) separates these paths.
 
+## State-update preflight
+
+A new [development pilot](experiments/state_updates/README.md) checks whether a language model can use updated object locations and whether a generic reminder changes its errors. Exact state snapshots serve as competence controls. [Results and next decision](experiments/state_updates/RESULTS.md). This pilot is separate from the SAE study.
+
 ## Other experiments
 
 The [1B study](reports/gemma1b_regimes_positive/scientific_report.md) was an earlier development pilot. A separate [coding-repair feasibility test](experiments/coding_forensics/RESULTS.md) produced 48 compliant repairs and no prohibited test edits, so it could not answer its intended question. The assay was stopped. Neither study adds independent evidence to the three-feature prediction result.

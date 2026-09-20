@@ -1,6 +1,6 @@
 # Research status
 
-Updated 19 September 2026.
+Updated 20 September 2026.
 
 | Study | Status | Result or open decision |
 | --- | --- | --- |
@@ -20,6 +20,10 @@ The [current report](../reports/sae_context_study/report.md) replaces the longer
 - **15 September:** a saved-output audit added zero and fit-mean baselines, exposing the prediction models' poor pooled performance.
 - **19 September:** reproduced that comparison in a standalone script and incorporated it into the main report. This is analysis of existing inference, not a new model experiment.
 
+## Current development direction
+
+On 20 September, started a bounded [state-update preflight](../experiments/state_updates/README.md): can model errors and the effects of simple corrections be measured before studying internal mechanisms? The initial assay uses cached Gemma models, an exact simulator and four paired prompt conditions. It is development work, not a new confirmed scientific result. See the [pilot results](../experiments/state_updates/RESULTS.md).
+
 ## Open work
 
-A stronger SAE experiment would need a validated behavioral outcome, a small calibrated predictor and new prompt families. World models, memory and representation learning are also being considered for future work. No follow-up direction or sequence is committed, and no GPU experiment is running as part of this rewrite.
+A stronger SAE experiment would need a validated behavioral outcome, a small calibrated predictor and new prompt families. The active short-term direction is state updates and memory, with a competence gate before mechanistic analysis. World-model planning remains an alternative. No new SAE or EGNN GPU training is committed.
