@@ -41,7 +41,7 @@ python scripts/build_intervention_bundle.py --prepared outputs/context_pilot_v3
 ```
 
 Local preparation needs the pinned SAE weights and tokenizer cached in Hugging
-Face, as well as the foundation data described in [the handoff](foundation_handoff.md).
+Face, as well as the foundation data described in [the foundation reproduction guide](foundation_reproduction.md).
 The first two preparation directories made during implementation were development
 iterations; the run bundle is `outputs/context_pilot_v3`.
 

@@ -14,3 +14,9 @@ outputs/
 checkpoints/
 models/
 .release/
+
+# Internal session context belongs in the private ai-context repository.
+.ai-context/
+docs/notes/
+**/*handoff*.md
+research/STATUS.md

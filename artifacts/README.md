@@ -29,4 +29,4 @@ The command downloads into .release/, verifies every part, reconstructs the ZIP 
 | phase1_research_report.zip | 6716127 | artifacts/extracted/phase1_research_report |
 | sae_feature_atlas_source.zip | 458535 | artifacts/extracted/sae_feature_atlas_source |
 
-The [original source snapshot](historical/original-source.zip) preserves the complete tracked tree before separation. Its checksum is in [archive inspection](archive-inspection.json). Historical reports were copied unchanged; [migration.json](migration.json) records source paths and hashes. Raw model weights and personal research planning are excluded.
+The original pre-separation source snapshot is retained in the owner's private context archive because it contains internal handoffs. Its original checksum remains in [archive inspection](archive-inspection.json). Public execution bundles above preserve the frozen runtime sources. Historical reports remain unchanged; [migration.json](migration.json) records the original migration paths and hashes, rather than the current file inventory. Raw model weights are excluded.
