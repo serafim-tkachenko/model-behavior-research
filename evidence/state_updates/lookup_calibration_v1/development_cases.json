@@ -1,0 +1,938 @@
+[
+  {
+    "id": "development-000",
+    "split": "development",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "development-001",
+    "split": "development",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "development-002",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "development-003",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "development-004",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "development-005",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "development-006",
+    "split": "development",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "development-007",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "development-008",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "development-009",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "development-010",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "development-011",
+    "split": "development",
+    "assignments": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "development-012",
+    "split": "development",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "development-013",
+    "split": "development",
+    "assignments": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "development-014",
+    "split": "development",
+    "assignments": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "development-015",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "development-016",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "development-017",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "development-018",
+    "split": "development",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "development-019",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "development-020",
+    "split": "development",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "development-021",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "development-022",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "development-023",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "development-024",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "development-025",
+    "split": "development",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "development-026",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "development-027",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "development-028",
+    "split": "development",
+    "assignments": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "development-029",
+    "split": "development",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "development-030",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "development-031",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "development-032",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "development-033",
+    "split": "development",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "development-034",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "development-035",
+    "split": "development",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "A"
+  }
+]

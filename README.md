@@ -38,7 +38,7 @@ Building the report uses committed tables and needs no GPU. Reconstructing those
 
 ## State-update preflight
 
-A [development pilot](experiments/state_updates/README.md) checks whether a language model can use updated object locations and whether a generic reminder changes its errors. Exact state snapshots serve as competence controls. [Results](experiments/state_updates/RESULTS.md). This pilot is separate from the SAE study.
+A [development pilot](experiments/state_updates/README.md) checks whether a language model can use updated object locations and whether a generic reminder changes its errors. Exact state snapshots serve as competence controls. [Original results](experiments/state_updates/RESULTS.md) and [lookup calibration](experiments/state_updates/CALIBRATION_RESULTS.md). This pilot is separate from the SAE study.
 
 ## Other experiments
 

@@ -4,7 +4,11 @@
 
 Can a diagnosis of a language model's state-tracking error help choose a correction that generalizes better than the best fixed correction? This is the candidate research question. The current pilot only checks whether a simple behavioral assay is worth developing. It does not implement a diagnostic selector or establish a mechanism.
 
-## What runs now
+## Snapshot lookup calibration
+
+The completed [lookup calibration](CALIBRATION_RESULTS.md) compares static prose and table prompts on disjoint development and reserved cases. Its [protocol](calibration_protocol.md) and saved evidence distinguish basic retrieval competence from state updating.
+
+## Original preflight
 
 Initial model: Gemma 3 1B **pretrained**, pinned to revision `fcf18a2a879aab110ca39f8bffbccd5d49d8eb29`; local cached weights; CPU float32; no training. Four named objects can occupy any of three boxes, including shared boxes. A move changes only the named object's box. The target always changes location. There are 0, 4 or 12 subsequent unrelated moves, six cases per regime, with two answers per box in each regime. The seed is 20260920. Three fixed worked examples use different object names.
 

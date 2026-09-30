@@ -1,0 +1,24 @@
+{
+  "status": "frozen_before_calibration_inference_not_external_preregistration",
+  "created_at_utc": "2026-09-30T00:10:04.397242+00:00",
+  "model": "google/gemma-3-4b-pt",
+  "revision": "cc012e0a6d0787b4adcc0fa2c4da74402494554d",
+  "seeds": {
+    "development": 730241,
+    "check": 730249
+  },
+  "files": {
+    "calibration.py": "fff05ba4cf62c1a8e8c32dfb94414cdca97bc06803d3512c17b931b04e1ea414",
+    "calibration_protocol.md": "f7cf935e6ea99f5f7115636739a78ebb68f4062a715212c28a5702f66a894d9a",
+    "test_calibration.py": "a681d7b56ff7a2c552126eb12b9ad9d24ac906290e8adbf9ed9d736ac780775d",
+    "check_cases.json": "bc4fe6d55f11abb34bfa8623912839d4d72aef69fe239e3553fa2236a925212d",
+    "development_cases.json": "a40725b140677f3d37717dcc313d152adcf64fcf1a0ed6a7c6de2e8e72bd2127",
+    "prepared_prompts.json": "54c51f97a562de42794597fdba81c810606d23385f8fa2dda180eeebe4b925b5"
+  },
+  "max_scored_prompts": 288,
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 8,
+  "max_scoring_seconds": 900,
+  "max_rss_gib": 21
+}

@@ -1,0 +1,6 @@
+{
+  "executed_sha256": "ff79994d4ce8e91f76423efee3bbac9acf84cf3b71531b045c4bc53733b3e5a2",
+  "public_runner_sha256": "5701b4f98ba222d822e090f9fe6d193574f8eef7d6a4ca5eb1f77a7d6c689e2d",
+  "ast_equivalent": true,
+  "difference": "Whitespace-only Ruff formatting after inference; executed source retained byte-for-byte."
+}
