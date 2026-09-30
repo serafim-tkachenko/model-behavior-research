@@ -8,4 +8,4 @@ The constants were added retrospectively to saved inference. This is a negative 
 
 The report links the methods, per-case errors and controls. See [reproduction](docs/reproduction.md) for the commands, [claim details](research/claims.md) for exact inferential limits, and [reading the evidence](research/review.md) for the key comparisons.
 
-The separate [coding-repair pilot](experiments/coding_forensics/RESULTS.md) was stopped because all 48 repairs complied with the editing boundary. Its proposed follow-up has not produced model results.
+The separate [coding-repair pilot](experiments/coding_forensics/RESULTS.md) was stopped because all 48 repairs complied with the editing boundary. 

@@ -35,7 +35,7 @@ def main():
                 raise RuntimeError(f"Checksum mismatch: {part['name']}")
             temp.replace(path)
         print("Verified part:", part["name"], flush=True)
-    if len(entry["parts"]) > 1:
+    if len(entry["parts"]) > 1 or entry["parts"][0]["name"] != entry["name"]:
         temp = result.with_name(result.name + ".assembled")
         with temp.open("wb") as output:
             for part in entry["parts"]:
