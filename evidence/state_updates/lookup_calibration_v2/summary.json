@@ -1,0 +1,209 @@
+{
+  "model": "google/gemma-3-4b-pt",
+  "revision": "cc012e0a6d0787b4adcc0fa2c4da74402494554d",
+  "torch": "2.14.0+cu130",
+  "transformers": "5.17.0",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 8,
+  "load_seconds": 4.640078126999995,
+  "scoring_seconds": 466.076034758,
+  "peak_rss_gib": 22.761672973632812,
+  "completed_at_utc": "2026-09-30T00:24:44.373191+00:00",
+  "freeze_sha256": "c0cfcca8211d5892c0c75b5d3d96b0076fea7189ce58d8625d9b1465e49c114d",
+  "decision": {
+    "selected_format": "prose",
+    "development_counts": {
+      "prose": 36,
+      "table": 36
+    },
+    "development_n": 36,
+    "selected_at_utc": "2026-09-30T00:18:51.741004+00:00",
+    "status": "lookup_screen_passed_history_assay_not_yet_validated"
+  },
+  "groups": {
+    "development": {
+      "prose": {
+        "correct": 36,
+        "n": 36,
+        "accuracy": 1.0,
+        "wilson_95_descriptive": [
+          0.9035813714055363,
+          1.0
+        ],
+        "mean_candidate_mass": 0.9732016355523633,
+        "mean_input_tokens": 211.0,
+        "by_query_position": {
+          "0": {
+            "correct": 9,
+            "n": 9
+          },
+          "1": {
+            "correct": 9,
+            "n": 9
+          },
+          "2": {
+            "correct": 9,
+            "n": 9
+          },
+          "3": {
+            "correct": 9,
+            "n": 9
+          }
+        },
+        "by_label": {
+          "A": {
+            "correct": 12,
+            "n": 12
+          },
+          "B": {
+            "correct": 12,
+            "n": 12
+          },
+          "C": {
+            "correct": 12,
+            "n": 12
+          }
+        }
+      },
+      "table": {
+        "correct": 36,
+        "n": 36,
+        "accuracy": 1.0,
+        "wilson_95_descriptive": [
+          0.9035813714055363,
+          1.0
+        ],
+        "mean_candidate_mass": 0.9781322121982359,
+        "mean_input_tokens": 163.0,
+        "by_query_position": {
+          "0": {
+            "correct": 9,
+            "n": 9
+          },
+          "1": {
+            "correct": 9,
+            "n": 9
+          },
+          "2": {
+            "correct": 9,
+            "n": 9
+          },
+          "3": {
+            "correct": 9,
+            "n": 9
+          }
+        },
+        "by_label": {
+          "A": {
+            "correct": 12,
+            "n": 12
+          },
+          "B": {
+            "correct": 12,
+            "n": 12
+          },
+          "C": {
+            "correct": 12,
+            "n": 12
+          }
+        }
+      },
+      "paired_outcomes": {
+        "prose_1_table_1": 36
+      }
+    },
+    "check": {
+      "prose": {
+        "correct": 108,
+        "n": 108,
+        "accuracy": 1.0,
+        "wilson_95_descriptive": [
+          0.9656526402534428,
+          0.9999999999999999
+        ],
+        "mean_candidate_mass": 0.9737914781500068,
+        "mean_input_tokens": 211.0,
+        "by_query_position": {
+          "0": {
+            "correct": 27,
+            "n": 27
+          },
+          "1": {
+            "correct": 27,
+            "n": 27
+          },
+          "2": {
+            "correct": 27,
+            "n": 27
+          },
+          "3": {
+            "correct": 27,
+            "n": 27
+          }
+        },
+        "by_label": {
+          "A": {
+            "correct": 36,
+            "n": 36
+          },
+          "B": {
+            "correct": 36,
+            "n": 36
+          },
+          "C": {
+            "correct": 36,
+            "n": 36
+          }
+        }
+      },
+      "table": {
+        "correct": 108,
+        "n": 108,
+        "accuracy": 1.0,
+        "wilson_95_descriptive": [
+          0.9656526402534428,
+          0.9999999999999999
+        ],
+        "mean_candidate_mass": 0.9784742684396742,
+        "mean_input_tokens": 163.0,
+        "by_query_position": {
+          "0": {
+            "correct": 27,
+            "n": 27
+          },
+          "1": {
+            "correct": 27,
+            "n": 27
+          },
+          "2": {
+            "correct": 27,
+            "n": 27
+          },
+          "3": {
+            "correct": 27,
+            "n": 27
+          }
+        },
+        "by_label": {
+          "A": {
+            "correct": 36,
+            "n": 36
+          },
+          "B": {
+            "correct": 36,
+            "n": 36
+          },
+          "C": {
+            "correct": 36,
+            "n": 36
+          }
+        }
+      },
+      "paired_outcomes": {
+        "prose_1_table_1": 108
+      }
+    }
+  },
+  "scored_prompts": 288
+}

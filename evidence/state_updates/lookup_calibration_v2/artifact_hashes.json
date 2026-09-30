@@ -1,0 +1,11 @@
+{
+  "calibration.py": "ff79994d4ce8e91f76423efee3bbac9acf84cf3b71531b045c4bc53733b3e5a2",
+  "calibration_protocol.md": "878df2548753bfe6328835a1063785e39c4625387b7423b7e5b0300348e5ae8e",
+  "check_cases.json": "bc4fe6d55f11abb34bfa8623912839d4d72aef69fe239e3553fa2236a925212d",
+  "development_cases.json": "a40725b140677f3d37717dcc313d152adcf64fcf1a0ed6a7c6de2e8e72bd2127",
+  "development_decision.json": "a83f1147b421f041908afc91cc15b6a29f75c164799ef4c8c5b89e2b2c27bb31",
+  "freeze.json": "c0cfcca8211d5892c0c75b5d3d96b0076fea7189ce58d8625d9b1465e49c114d",
+  "predictions.jsonl": "1805a83060aaf096d5f69ae61d58d64534ec1bf013625f0f6fefa6648ebe73cf",
+  "prepared_prompts.json": "54c51f97a562de42794597fdba81c810606d23385f8fa2dda180eeebe4b925b5",
+  "summary.json": "65a11e0a3a27216b3f16cef7f19e83ad323fd664b86712a2727fe1b83e4f2b03"
+}

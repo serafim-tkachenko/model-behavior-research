@@ -34,3 +34,7 @@ The 1B run used approximately 51 seconds for the scoring loop; the 4B run approx
 The 4B run was selected after inspecting the 1B failures and used the same cases. It is a sequential development check, not a held-out replication. The full [protocol](README.md) lists the assay design and additional limitations.
 
 The snapshot-control failures leave retrieval and template competence unresolved. This pilot does not establish a mechanism or a generalizable repair benefit.
+
+## Subsequent lookup calibration
+
+A separate [static lookup calibration](CALIBRATION_RESULTS.md) tests matched lookup examples and two fixed renderings on fresh cases. It preserves the original preflight and does not identify the cause of its errors.

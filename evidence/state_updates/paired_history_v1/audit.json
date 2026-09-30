@@ -1,0 +1,8 @@
+{
+  "audited_rows": 216,
+  "paired_cases": 36,
+  "tokenizer_verified": true,
+  "status": "passed",
+  "endpoint_exclusion_verified": true,
+  "summary_verified": true
+}

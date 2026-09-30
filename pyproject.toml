@@ -21,3 +21,7 @@ dev = ["pytest", "ruff"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+# Frozen source copies are audited as evidence, not collected as live tests.
+addopts = ["--ignore=evidence"]

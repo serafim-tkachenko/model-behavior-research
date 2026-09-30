@@ -1,0 +1,15 @@
+{
+  "purpose": "loading-only diagnostic after zero-prompt stop; no model forward pass",
+  "model": "google/gemma-3-4b-pt",
+  "revision": "cc012e0a6d0787b4adcc0fa2c4da74402494554d",
+  "dtype": "float32",
+  "device": "cpu",
+  "threads": 8,
+  "peak_rss_gib": 22.66461944580078,
+  "current_rss_kib": 17538656,
+  "mem_available_kib": 6615936,
+  "mem_total_kib": 24610420,
+  "swap_free_kib": 16776424,
+  "parameter_bytes": 17200317888,
+  "measurements": "Copied from the loading-only diagnostic tool output before calibration answers were scored."
+}

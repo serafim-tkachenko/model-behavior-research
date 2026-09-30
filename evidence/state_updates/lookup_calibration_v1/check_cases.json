@@ -1,0 +1,2810 @@
+[
+  {
+    "id": "check-000",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-001",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-002",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-003",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-004",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-005",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-006",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-007",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-008",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-009",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-010",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-011",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-012",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-013",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-014",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-015",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-016",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-017",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-018",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-019",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-020",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-021",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-022",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-023",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-024",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-025",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-026",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-027",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-028",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-029",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-030",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-031",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-032",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-033",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-034",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-035",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-036",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-037",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-038",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-039",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-040",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-041",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-042",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-043",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-044",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-045",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-046",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-047",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-048",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-049",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-050",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-051",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-052",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-053",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-054",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-055",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-056",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-057",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-058",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-059",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-060",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-061",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-062",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-063",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-064",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-065",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-066",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-067",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-068",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-069",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-070",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-071",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-072",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-073",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-074",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-075",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-076",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-077",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-078",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-079",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-080",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-081",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-082",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-083",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-084",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-085",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-086",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-087",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-088",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-089",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-090",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-091",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-092",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-093",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-094",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "B"
+  },
+  {
+    "id": "check-095",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ],
+    "target": "key",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-096",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "C"
+  },
+  {
+    "id": "check-097",
+    "split": "check",
+    "assignments": [
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-098",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ],
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-099",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "A"
+  },
+  {
+    "id": "check-100",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "B"
+  },
+  {
+    "id": "check-101",
+    "split": "check",
+    "assignments": [
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "B"
+  },
+  {
+    "id": "check-102",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-103",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ],
+    "target": "key",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "C"
+  },
+  {
+    "id": "check-104",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "A"
+  },
+  {
+    "id": "check-105",
+    "split": "check",
+    "assignments": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "C"
+  },
+  {
+    "id": "check-106",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ],
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "A"
+  },
+  {
+    "id": "check-107",
+    "split": "check",
+    "assignments": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ],
+    "target": "pen",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "C"
+  }
+]

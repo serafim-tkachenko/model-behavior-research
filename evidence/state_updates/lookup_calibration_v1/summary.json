@@ -1,0 +1,23 @@
+{
+  "model": "google/gemma-3-4b-pt",
+  "revision": "cc012e0a6d0787b4adcc0fa2c4da74402494554d",
+  "torch": "2.14.0+cu130",
+  "transformers": "5.17.0",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 8,
+  "load_seconds": 14.824725547000014,
+  "scoring_seconds": 0.006456289999988485,
+  "peak_rss_gib": 22.728439331054688,
+  "completed_at_utc": "2026-09-30T00:11:34.783172+00:00",
+  "freeze_sha256": "f347fce7be05aab90449fead20775d511b63907df3f4b5a6ac32dc2564c964ce",
+  "decision": {
+    "selected_format": null,
+    "status": "stopped_resource_cap_partial_not_a_competence_result"
+  },
+  "groups": {
+    "development": {},
+    "check": {}
+  },
+  "scored_prompts": 0
+}

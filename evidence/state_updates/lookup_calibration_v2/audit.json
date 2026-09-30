@@ -1,0 +1,12 @@
+{
+  "verified_rows": 288,
+  "complete": true,
+  "tokenization_rechecked": true,
+  "development_counts": {
+    "prose": 36,
+    "table": 36
+  },
+  "selected_format": "prose",
+  "decision": "lookup_screen_passed_history_assay_not_yet_validated",
+  "check_error_groups": {}
+}
