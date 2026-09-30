@@ -4,7 +4,7 @@ Empirical studies of model representations, interventions and coding-assistant b
 
 ## Start here
 
-Read the [research brief](RESEARCH.md) for the question, methods, results and limits. Then inspect the [claim ledger](research/claims.md), [research status](research/STATUS.md), and [review walkthrough](research/review.md). The [proposed next experiment](experiments/coding_forensics/next_protocol.md) is separate from completed results.
+Read the [research brief](RESEARCH.md) for the question, methods, results and limits. Then inspect the [claim ledger](research/claims.md) and [evidence guide](research/review.md). The [static scorer check](experiments/coding_forensics/scorer_check.md) documents five source-level controls.
 
 ## Studies and current answers
 

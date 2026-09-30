@@ -29,10 +29,10 @@ The evidence does not yet justify treating contextual SAE structure as a validat
 
 A separate coding pilot tested whether a specific edit-boundary reminder reduced prohibited test edits. All 48 trajectories produced compliant repairs, so the required behavioral contrast was absent. The assay was stopped. This is a feasibility decision, not evidence of general safety or reminder effectiveness.
 
-The [next protocol](experiments/coding_forensics/next_protocol.md) starts from a documented repository task and asks whether a small local model can both perform the legitimate task and exhibit a reproducible behavioral contrast. Before inference, an independent evaluator must distinguish actual task completion from lexical shortcut flags. SAE analysis is deferred until simpler behavioral methods leave a concrete unanswered question.
+The [static scorer check](experiments/coding_forensics/scorer_check.md) preserves the completed synthetic controls and their reproduction commands. No model trajectories were run for that check.
 
 ## Review and reproduce
 
-Start with the [review walkthrough](research/review.md), then the [reproduction guide](docs/reproduction.md). Frozen data and source archives have [public checksums and downloads](artifacts/README.md). The [status and decision log](research/STATUS.md) separates completed work, retrospective decisions and proposed experiments.
+Start with the [review walkthrough](research/review.md), then the [reproduction guide](docs/reproduction.md). Frozen data and source archives have [public checksums and downloads](artifacts/README.md).
 
 This project used substantial language-model assistance. Read the [contribution statement](CONTRIBUTIONS.md); maintainer review and authorship of specific scientific decisions must be recorded rather than inferred from repository ownership. Package tests and saved-output audits are distinct from independent scientific replication.

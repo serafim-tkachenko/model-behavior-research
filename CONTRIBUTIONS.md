@@ -4,7 +4,7 @@ Serafim Tkachenko maintains this independent research project. It combines maint
 
 ## Maintainer contributions
 
-Confirmed by the maintainer on 13 September 2026:
+The maintainer confirmed these contributions:
 
 - Selected the research problem and methodology.
 - Designed the SAE toolkit.
@@ -21,6 +21,6 @@ Executed source snapshots, configurations, raw outputs and limitations remain at
 
 ## Review record
 
-The maintainer's problem, methodology and toolkit-design contributions above are recorded. Personal review of the newly assembled research brief, the specific raw cases in the walkthrough, and each detailed statistical interpretation has not yet been recorded. Add dated review decisions through the [review walkthrough](research/review.md).
+The maintainer's problem, methodology and toolkit-design contributions above are recorded. Personal review of the newly assembled research brief, the specific raw cases in the walkthrough, and each detailed statistical interpretation has not yet been recorded. The [evidence guide](research/review.md) identifies the comparisons supporting the results.
 
 Repository ownership does not establish sole authorship. Migration, test success and public release do not upgrade development findings into confirmed scientific claims.
