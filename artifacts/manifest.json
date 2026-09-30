@@ -4,9 +4,9 @@
   "archives": [
     {
       "name": "context_intervention_bundle.zip",
-      "size": 987462,
-      "sha256": "c2ac659d69eb855ee34c22c6378ddcd9b34b1355c20442895a64c2720782414c",
-      "members": 84,
+      "size": 988212,
+      "sha256": "a1bd48280e1b46f5b94e7564acb9aab579b3de5509e12e70dee7c04de409711a",
+      "members": 85,
       "roots": [
         "README.md",
         "experiments",
@@ -25,18 +25,20 @@
       ],
       "parts": [
         {
-          "name": "context_intervention_bundle.zip",
-          "size": 987462,
-          "sha256": "c2ac659d69eb855ee34c22c6378ddcd9b34b1355c20442895a64c2720782414c"
+          "name": "context_intervention_bundle.public.zip",
+          "size": 988212,
+          "sha256": "a1bd48280e1b46f5b94e7564acb9aab579b3de5509e12e70dee7c04de409711a"
         }
       ],
-      "suggested_destination": "artifacts/extracted/context_intervention_bundle"
+      "suggested_destination": "artifacts/extracted/context_intervention_bundle",
+      "original_archive_sha256": "c2ac659d69eb855ee34c22c6378ddcd9b34b1355c20442895a64c2720782414c",
+      "documentation_changes": "public_documentation_manifest.json"
     },
     {
       "name": "context_intervention_bundle_v2.zip",
-      "size": 986685,
-      "sha256": "3e4972855c3cc4011f16ea7ea93224323a6b2739efa8ec9614558d29f69e61fb",
-      "members": 84,
+      "size": 987439,
+      "sha256": "875bb7eee4b1d504b0b18bb51d75edf99e85d378109cbe8094a4cb3d2a537185",
+      "members": 85,
       "roots": [
         "README.md",
         "experiments",
@@ -55,12 +57,14 @@
       ],
       "parts": [
         {
-          "name": "context_intervention_bundle_v2.zip",
-          "size": 986685,
-          "sha256": "3e4972855c3cc4011f16ea7ea93224323a6b2739efa8ec9614558d29f69e61fb"
+          "name": "context_intervention_bundle_v2.public.zip",
+          "size": 987439,
+          "sha256": "875bb7eee4b1d504b0b18bb51d75edf99e85d378109cbe8094a4cb3d2a537185"
         }
       ],
-      "suggested_destination": "artifacts/extracted/context_intervention_bundle_v2"
+      "suggested_destination": "artifacts/extracted/context_intervention_bundle_v2",
+      "original_archive_sha256": "3e4972855c3cc4011f16ea7ea93224323a6b2739efa8ec9614558d29f69e61fb",
+      "documentation_changes": "public_documentation_manifest.json"
     },
     {
       "name": "context_intervention_report.zip",
@@ -164,9 +168,9 @@
     },
     {
       "name": "foundation_colab_bundle.zip",
-      "size": 23344144,
-      "sha256": "f4f64c1fb0c349cd4b4bd1c977b24cf624d793d7643c7294d9c01d00994c6ed8",
-      "members": 115,
+      "size": 23344634,
+      "sha256": "4190212ce002f1410078a8243ed92a17fa680e946e38af5162c3a9526f2eb2af",
+      "members": 116,
       "roots": [
         "README.md",
         "data",
@@ -188,12 +192,14 @@
       ],
       "parts": [
         {
-          "name": "foundation_colab_bundle.zip",
-          "size": 23344144,
-          "sha256": "f4f64c1fb0c349cd4b4bd1c977b24cf624d793d7643c7294d9c01d00994c6ed8"
+          "name": "foundation_colab_bundle.public.zip",
+          "size": 23344634,
+          "sha256": "4190212ce002f1410078a8243ed92a17fa680e946e38af5162c3a9526f2eb2af"
         }
       ],
-      "suggested_destination": "artifacts/extracted/foundation_colab_bundle"
+      "suggested_destination": "artifacts/extracted/foundation_colab_bundle",
+      "original_archive_sha256": "f4f64c1fb0c349cd4b4bd1c977b24cf624d793d7643c7294d9c01d00994c6ed8",
+      "documentation_changes": "public_documentation_manifest.json"
     },
     {
       "name": "foundation_final_delta.zip",
@@ -333,9 +339,9 @@
     },
     {
       "name": "foundation_runtime_sources.zip",
-      "size": 528985,
-      "sha256": "5145006a71acfeaf8c7f6aa33be0f7d31a0f79d99b9d5fdb44c0382d746dac95",
-      "members": 113,
+      "size": 529370,
+      "sha256": "b6054aef907ed5b182c251275e2338d17fb5dcff675469d3862fa82f6132e6e8",
+      "members": 114,
       "roots": [
         "docs",
         "foundation_analysis17.log",
@@ -380,17 +386,19 @@
       ],
       "parts": [
         {
-          "name": "foundation_runtime_sources.zip",
-          "size": 528985,
-          "sha256": "5145006a71acfeaf8c7f6aa33be0f7d31a0f79d99b9d5fdb44c0382d746dac95"
+          "name": "foundation_runtime_sources.public.zip",
+          "size": 529370,
+          "sha256": "b6054aef907ed5b182c251275e2338d17fb5dcff675469d3862fa82f6132e6e8"
         }
       ],
-      "suggested_destination": "artifacts/extracted/foundation_runtime_sources"
+      "suggested_destination": "artifacts/extracted/foundation_runtime_sources",
+      "original_archive_sha256": "5145006a71acfeaf8c7f6aa33be0f7d31a0f79d99b9d5fdb44c0382d746dac95",
+      "documentation_changes": "public_documentation_manifest.json"
     },
     {
       "name": "gemma1b_regimes_positive_analysis_bundle.zip",
-      "size": 120264994,
-      "sha256": "771c9aca304e24a992cd7d8eea9335c651f43f98d09330e83cf22a31d87fa595",
+      "size": 120263182,
+      "sha256": "69fc5d79576827c6c2fe20fd5f2e6fe48673e750f70582df34f0e9593dc04bf0",
       "members": 58,
       "roots": [
         "data",
@@ -406,18 +414,20 @@
       ],
       "parts": [
         {
-          "name": "gemma1b_regimes_positive_analysis_bundle.zip",
-          "size": 120264994,
-          "sha256": "771c9aca304e24a992cd7d8eea9335c651f43f98d09330e83cf22a31d87fa595"
+          "name": "gemma1b_regimes_positive_analysis_bundle.public.zip",
+          "size": 120263182,
+          "sha256": "69fc5d79576827c6c2fe20fd5f2e6fe48673e750f70582df34f0e9593dc04bf0"
         }
       ],
-      "suggested_destination": "artifacts/extracted/gemma1b_regimes_positive_analysis_bundle"
+      "suggested_destination": "artifacts/extracted/gemma1b_regimes_positive_analysis_bundle",
+      "original_archive_sha256": "771c9aca304e24a992cd7d8eea9335c651f43f98d09330e83cf22a31d87fa595",
+      "documentation_changes": "public_documentation_manifest.json"
     },
     {
       "name": "gemma4b_foundation_report.zip",
-      "size": 7890771,
-      "sha256": "88009272a3c808442c61f8b83d6840b7b560d93c5e4032dec783aadab9604bd3",
-      "members": 94,
+      "size": 7891035,
+      "sha256": "a36e70ba57b602c1cab27ccbe2367aa33196871d5eadbcfa71a9dc26d1b1f49a",
+      "members": 95,
       "roots": [
         "annotation",
         "data_archive_manifest.json",
@@ -441,12 +451,14 @@
       ],
       "parts": [
         {
-          "name": "gemma4b_foundation_report.zip",
-          "size": 7890771,
-          "sha256": "88009272a3c808442c61f8b83d6840b7b560d93c5e4032dec783aadab9604bd3"
+          "name": "gemma4b_foundation_report.public.zip",
+          "size": 7891035,
+          "sha256": "a36e70ba57b602c1cab27ccbe2367aa33196871d5eadbcfa71a9dc26d1b1f49a"
         }
       ],
-      "suggested_destination": "artifacts/extracted/gemma4b_foundation_report"
+      "suggested_destination": "artifacts/extracted/gemma4b_foundation_report",
+      "original_archive_sha256": "88009272a3c808442c61f8b83d6840b7b560d93c5e4032dec783aadab9604bd3",
+      "documentation_changes": "public_documentation_manifest.json"
     },
     {
       "name": "geometry_extension.zip",
@@ -477,9 +489,9 @@
     },
     {
       "name": "phase1_research_report.zip",
-      "size": 6716127,
-      "sha256": "7e0dd067718dfe4c423c32859a2f0771656c691c798acb8ce7ed2543124d81a8",
-      "members": 63,
+      "size": 6762472,
+      "sha256": "e509c39210e2f5f614b884f2967fe7afacf129c16c7683041c3bb9a0c683eedf",
+      "members": 64,
       "roots": [
         "build_manifest.json",
         "delivery_validation.json",
@@ -502,18 +514,20 @@
       ],
       "parts": [
         {
-          "name": "phase1_research_report.zip",
-          "size": 6716127,
-          "sha256": "7e0dd067718dfe4c423c32859a2f0771656c691c798acb8ce7ed2543124d81a8"
+          "name": "phase1_research_report.public.zip",
+          "size": 6762472,
+          "sha256": "e509c39210e2f5f614b884f2967fe7afacf129c16c7683041c3bb9a0c683eedf"
         }
       ],
-      "suggested_destination": "artifacts/extracted/phase1_research_report"
+      "suggested_destination": "artifacts/extracted/phase1_research_report",
+      "original_archive_sha256": "7e0dd067718dfe4c423c32859a2f0771656c691c798acb8ce7ed2543124d81a8",
+      "documentation_changes": "public_documentation_manifest.json"
     },
     {
       "name": "sae_feature_atlas_source.zip",
-      "size": 458535,
-      "sha256": "1bf8d07ddcfb0a6599637c717add217403c4100c32cb0460f80b56b1b6729de3",
-      "members": 101,
+      "size": 459015,
+      "sha256": "39988e6feec2f543c9fbd88939fac3fb26e649686f2e8df19bdb3fcf37adbc2e",
+      "members": 102,
       "roots": [
         ".gitattributes",
         ".gitignore",
@@ -537,12 +551,14 @@
       ],
       "parts": [
         {
-          "name": "sae_feature_atlas_source.zip",
-          "size": 458535,
-          "sha256": "1bf8d07ddcfb0a6599637c717add217403c4100c32cb0460f80b56b1b6729de3"
+          "name": "sae_feature_atlas_source.public.zip",
+          "size": 459015,
+          "sha256": "39988e6feec2f543c9fbd88939fac3fb26e649686f2e8df19bdb3fcf37adbc2e"
         }
       ],
-      "suggested_destination": "artifacts/extracted/sae_feature_atlas_source"
+      "suggested_destination": "artifacts/extracted/sae_feature_atlas_source",
+      "original_archive_sha256": "1bf8d07ddcfb0a6599637c717add217403c4100c32cb0460f80b56b1b6729de3",
+      "documentation_changes": "public_documentation_manifest.json"
     }
   ]
 }

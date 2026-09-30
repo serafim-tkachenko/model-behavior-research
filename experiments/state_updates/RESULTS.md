@@ -1,10 +1,10 @@
 # State-update preflight: first results
 
-20 September 2026. Development assay, not a confirmed research finding.
+Development assay, not a confirmed research finding.
 
-## Decision
+## Interpretation
 
-Continue only with task calibration. Do not start activation probes or claim a selective memory-update failure. Both models failed at least one snapshot competence control under the working 90% screen. The 4B model is close, but moving the threshold after observing its score would not resolve the ambiguity.
+The assay does not establish a selective memory-update failure. Both models failed at least one snapshot competence control under the working 90% screen. The 4B model is close, but moving the threshold after observing its score would not resolve the ambiguity.
 
 ## Measured results
 
@@ -31,13 +31,6 @@ The 1B run used approximately 51 seconds for the scoring loop; the 4B run approx
 
 [1B evidence](../../evidence/state_updates/dev_20260920_v1/) and [4B evidence](../../evidence/state_updates/dev_20260920_gemma4b/) include cases, every prompt, answer probabilities, summaries and file hashes. Model revisions and library versions are in each summary. `analyze.py` reconstructs prompts and labels from the simulator and independently recounts predictions; all 144 rows passed these checks. Five simulator/prompt tests passed, and the complete repository suite passed 33 tests.
 
-The 4B run was selected after inspecting the 1B failures and used the same cases. It is a sequential development check, not a held-out replication. The full [protocol](README.md) lists additional limitations and the eventual research question.
+The 4B run was selected after inspecting the 1B failures and used the same cases. It is a sequential development check, not a held-out replication. The full [protocol](README.md) lists the assay design and additional limitations.
 
-## Next bounded step
-
-1. Inspect the two 4B errors on exact final assignments. Use a dedicated lookup-only calibration set, independent of these 18 histories, with balanced queried-object position and all old/new box transitions.
-2. Compare the current prose representation against one compact table representation, with worked examples matched to each task. Fix this small comparison before running; do not search an unbounded list of prompts.
-3. Only if snapshot retrieval passes the competence screen on a separate calibration check, create paired history variants differing in distractor lag. Include unchanged targets and counterbalance which object is queried.
-4. If that calibration still fails, switch to a small instruction-tuned model or stop this assay. Do not buy more compute to compensate for an ambiguous task.
-
-The research target remains whether an observable diagnosis predicts which correction works better than the best fixed correction on fresh cases. This pilot establishes neither that claim nor its novelty. Its useful outcome is identifying the measurement problem before investing in mechanistic analysis.
+The snapshot-control failures leave retrieval and template competence unresolved. This pilot does not establish a mechanism or a generalizable repair benefit.

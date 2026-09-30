@@ -238,7 +238,7 @@ def build_pdf(text: str) -> None:
         canvas.setFont("Helvetica", 8)
         canvas.setFillColor(colors.HexColor("#526572"))
         canvas.drawString(
-            60, 29, "SAE context and intervention prediction | September 2026"
+            60, 29, "SAE context and intervention prediction"
         )
         canvas.drawRightString(A4[0] - 60, 29, str(doc.page))
 

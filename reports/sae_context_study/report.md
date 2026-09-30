@@ -1,6 +1,6 @@
 # Can activation context predict SAE intervention effects?
 
-Serafim Tkachenko · September 2026
+Serafim Tkachenko
 
 **Result:** the tested context predictors did not beat a training-mean baseline on pooled check data for any of the three features. Weak and strong feature activations did occur in different contexts, but that observation did not translate into useful prediction in this pilot.
 
@@ -89,7 +89,7 @@ The [prediction table](../../evidence/sae_prediction/prediction_summary.csv), [p
 
 Run `scripts/check_prediction_baselines.py` with the released intervention ZIP to reconstruct those tables. Run `scripts/build_sae_context_report.py` to rebuild the figures and PDF from committed tables and this Markdown. See the [reproduction guide](../../docs/reproduction.md) for commands and downloads.
 
-The [longer September report](../research_report/report.md) preserves full methods, the geometry survey and exploratory signed analyses. Its earlier prediction discussion predates the constant-baseline comparison above. The separate [coding-repair pilot](../../experiments/coding_forensics/RESULTS.md) is not evidence for the SAE hypothesis.
+The [longer report](../research_report/report.md) preserves full methods, the geometry survey and exploratory signed analyses. Its earlier prediction discussion predates the constant-baseline comparison above. The separate [coding-repair pilot](../../experiments/coding_forensics/RESULTS.md) is not evidence for the SAE hypothesis.
 
 ## References
 

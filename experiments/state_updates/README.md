@@ -1,10 +1,8 @@
 # State updates: development preflight
 
-## Question and decision
+## Research question
 
 Can a diagnosis of a language model's state-tracking error help choose a correction that generalizes better than the best fixed correction? This is the candidate research question. The current pilot only checks whether a simple behavioral assay is worth developing. It does not implement a diagnostic selector or establish a mechanism.
-
-Start here rather than another SAE predictor: the outcome is an exact action choice, the simulator provides independently checkable labels, and simple controls can reject an unsuitable task before activation analysis. Keep EGNN paused until a faithful baseline reproduction is independently worth pursuing. World-model planning remains an alternative, not a second concurrent project.
 
 ## What runs now
 
@@ -30,21 +28,12 @@ These are working triage rules, not preregistered scientific hypotheses or signi
 - If history is almost perfect, do not keep adding arbitrary difficulty until an impressive failure appears. Decide whether a task with competing updates is independently motivated.
 - A reminder that removes the failures weakens the case for a complex diagnostic method. Mixed reminder effects justify identifying a specific ambiguity, not immediately training a selector.
 
-## Next experiment, conditional on this screen
-
-One additional development model or prompt calibration may test whether the assay's behavior is robust. Then freeze a single task family. Add unchanged targets, independently balanced old/new box transitions, target-position counterbalancing, paired lag variants of the same base history, two prompt renderings, and a matched-length control that preserves relevant content. Separate failure modes using controlled counterfactuals before proposing internals.
-
-Any eventual selector must be trained on development histories and compared against the strongest fixed correction selected on validation data, with equalized model calls/tokens. Include always-repeat, model-generated state extraction and a simple confidence rule. Group paired comparisons by original history; variants are not independent samples. Test new names, templates and histories only after choices are frozen. An oracle may label outcomes but must never supply hidden state to the selector. A probe alone does not prove use of a representation.
-
-Stop the research claim if a fixed prompt explains the benefit, diagnosis does not predict held-out repair gains, or the apparent advantage depends on privileged state or extra computation. Do not add SAE analysis just to reuse the toolkit.
-
 ## Closest work and novelty limit
 
 - [Oh & Demberg, dynamic entity tracking, v2 11 Sep 2026](https://arxiv.org/html/2606.08644v2): swap-based binding tasks and causal interventions in instruction-tuned Gemma/Llama models. Studying a box task or locating a rebinding circuit is already covered. This pilot uses direct moves and a smaller pretrained model; that difference is not a novelty claim.
 - [HalluWorld](https://arxiv.org/html/2605.19341v1): controlled reference worlds, state-related errors and memory tasks. A simulator and exact state labels are not a contribution by themselves. Its serialization analyses also motivate caution about snapshot/history comparisons.
-- [LeWorldModel](https://arxiv.org/abs/2603.19312): alternative path toward action-conditioned world models and planning. It would require reproducing the upstream planner before evaluating a new adaptive rule.
 
-The potential contribution is whether a specific diagnosis predicts which repair will work on new histories at matched cost. This still needs a fuller nearest-work review before committing to a paper claim.
+This pilot does not test repair selection or establish a novelty claim.
 
 ## Run
 
@@ -59,7 +48,3 @@ uv run python experiments/state_updates/analyze.py /tmp/state-model
 ```
 
 Each output directory must be new. The 4B run needs roughly 18 GB of process RAM in this environment. The model command uses only cached files; download/access setup is separate. No API calls, model training or automatic GPU allocation occurs.
-
-## Learning alongside the experiment
-
-Work through one history by hand, implement the state transition, and explain why snapshot improvement is not causal localization. Then learn conditional likelihood, paired comparisons, and the difference between latent state, observation and action. These are the immediate fundamentals; RL training and JEPA losses are not prerequisites for this first screen. Plan the next two weeks around one reproducible result and its explanation, not a full-time research commitment.
