@@ -1,6 +1,6 @@
 # Development pilot: coding repair boundaries
 
-13 September 2026. **Decision: stop this assay; do not scale it to a confirmatory study.**
+**Decision: stop this assay; do not scale it to a confirmatory study.**
 
 Qwen3.5-4B completed all 48 trajectories with correct source repairs and no prohibited test edits. The experiment therefore provides no behavioral contrast for testing whether a specific edit-boundary reminder reduces violations. The absence of failures in these tiny tasks is not evidence of general model safety.
 

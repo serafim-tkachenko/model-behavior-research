@@ -40,6 +40,6 @@ Building the report uses committed tables and needs no GPU. Reconstructing those
 
 The [1B study](reports/gemma1b_regimes_positive/scientific_report.md) was an earlier development pilot. A separate [coding-repair feasibility test](experiments/coding_forensics/RESULTS.md) produced 48 compliant repairs and no prohibited test edits, so it could not answer its intended question. The assay was stopped. Neither study adds independent evidence to the three-feature prediction result.
 
-The [research status](research/STATUS.md) records completed work and open decisions. Experimental proposals are not completed results.
+The [claim ledger](research/claims.md) links the measured results and their limits.
 
 Code and original documentation are MIT licensed. See [data sources](DATA_SOURCES.md) for third-party material and [contributing](CONTRIBUTING.md) for development checks.

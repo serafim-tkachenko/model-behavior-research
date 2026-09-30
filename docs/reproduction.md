@@ -46,7 +46,7 @@ uv run python scripts/verify_foundation_artifacts.py
 
 This recomputes selected integrity and numerical checks and writes reports/gemma4b_foundation_v1/verification.json. It checks saved evidence; it is not a fresh model replication.
 
-For intervention reconstruction, extract context_intervention_results.zip into outputs/context_download_v3. Copy its pilot/ directory to outputs/context_pilot_v3. The full_v3/ directory contains the full executed run; do not pool earlier smoke runs into it. Follow the [combined report reproduction guide](research_report_handoff.md) for verification and signed analysis. Historical report builders use fixed paths and can overwrite report files; run them on a separate checkout if preserving the archive unchanged.
+For intervention reconstruction, extract context_intervention_results.zip into outputs/context_download_v3. Copy its pilot/ directory to outputs/context_pilot_v3. The full_v3/ directory contains the full executed run; do not pool earlier smoke runs into it. Follow the [combined report reproduction guide](combined_report_reproduction.md) for verification and signed analysis. Historical report builders use fixed paths and can overwrite report files; run them on a separate checkout if preserving the archive unchanged.
 
 ## Fresh GPU experiments
 
