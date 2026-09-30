@@ -1,0 +1,24 @@
+{
+  "status": "frozen_before_inference_not_external_preregistration",
+  "created_at_utc": "2026-09-30T00:45:54.826946+00:00",
+  "seed": 730301,
+  "model": "google/gemma-3-4b-pt",
+  "revision": "cc012e0a6d0787b4adcc0fa2c4da74402494554d",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 8,
+  "max_scored_prompts": 216,
+  "max_scoring_seconds": 1200,
+  "max_scoring_rss_gib": 21,
+  "memory_check": "current_RSS_at_prompt_boundaries; peak_reported_separately",
+  "files": {
+    "audit_paired_history.py": "3179408c7e1aa5609f41e7c3f7e614384fe96a7a58be9db84aae0d041004192f",
+    "calibration.py": "5701b4f98ba222d822e090f9fe6d193574f8eef7d6a4ca5eb1f77a7d6c689e2d",
+    "cases.json": "5517fbe650eb8a4cd57b201dea017211358f6243507ac6ed009c4e3e3216a634",
+    "excluded_snapshots.json": "aa3c884da8faecdf25bacaf6970027dd5f4dbea20382aa2419280de9ded8f73e",
+    "paired_history.py": "04058b3e64d85f60f63be88c43bb0d31885720f1d8ae9a27851445ebe9a2d63f",
+    "paired_history_protocol.md": "13b4a58359a6098ad55bfb9adb8cb7228210da38d5ec4bd9b8acfb18f987ee8b",
+    "prepared_prompts.json": "673cf3764a82803a205e1b1285404994060e169063dbfe4a8514f65af83e10cc",
+    "test_paired_history.py": "eb0406becaf54d9abd3f1615509ef9de34a716b5a97f3aec5e326443ef6fa810"
+  }
+}

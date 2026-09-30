@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "paired-000",
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "C",
+    "changed": true,
+    "initial": {
+      "pen": "C",
+      "ring": "C",
+      "key": "C",
+      "coin": "B"
+    },
+    "final": {
+      "pen": "C",
+      "ring": "A",
+      "key": "C",
+      "coin": "C"
+    },
+    "distractors": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-001",
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "A",
+    "changed": false,
+    "initial": {
+      "ring": "B",
+      "key": "C",
+      "coin": "A",
+      "pen": "B"
+    },
+    "final": {
+      "ring": "A",
+      "key": "A",
+      "coin": "A",
+      "pen": "A"
+    },
+    "distractors": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-002",
+    "target": "key",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "A",
+    "changed": false,
+    "initial": {
+      "key": "A",
+      "coin": "B",
+      "pen": "A",
+      "ring": "A"
+    },
+    "final": {
+      "key": "A",
+      "coin": "C",
+      "pen": "C",
+      "ring": "C"
+    },
+    "distractors": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-003",
+    "target": "ring",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "A",
+    "changed": true,
+    "initial": {
+      "pen": "C",
+      "coin": "B",
+      "key": "A",
+      "ring": "C"
+    },
+    "final": {
+      "pen": "C",
+      "coin": "B",
+      "key": "C",
+      "ring": "A"
+    },
+    "distractors": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-004",
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "C",
+    "changed": true,
+    "initial": {
+      "key": "B",
+      "coin": "A",
+      "ring": "A",
+      "pen": "C"
+    },
+    "final": {
+      "key": "A",
+      "coin": "C",
+      "ring": "C",
+      "pen": "A"
+    },
+    "distractors": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-005",
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "B",
+    "changed": true,
+    "initial": {
+      "coin": "C",
+      "key": "C",
+      "pen": "A",
+      "ring": "B"
+    },
+    "final": {
+      "coin": "B",
+      "key": "C",
+      "pen": "B",
+      "ring": "C"
+    },
+    "distractors": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-006",
+    "target": "key",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "C",
+    "changed": false,
+    "initial": {
+      "coin": "A",
+      "pen": "A",
+      "ring": "C",
+      "key": "C"
+    },
+    "final": {
+      "coin": "B",
+      "pen": "A",
+      "ring": "B",
+      "key": "C"
+    },
+    "distractors": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-007",
+    "target": "key",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "A",
+    "changed": true,
+    "initial": {
+      "coin": "A",
+      "pen": "A",
+      "ring": "A",
+      "key": "B"
+    },
+    "final": {
+      "coin": "B",
+      "pen": "B",
+      "ring": "C",
+      "key": "A"
+    },
+    "distractors": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-008",
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "B",
+    "changed": false,
+    "initial": {
+      "coin": "B",
+      "pen": "A",
+      "key": "A",
+      "ring": "C"
+    },
+    "final": {
+      "coin": "B",
+      "pen": "C",
+      "key": "B",
+      "ring": "B"
+    },
+    "distractors": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-009",
+    "target": "key",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "B",
+    "changed": true,
+    "initial": {
+      "ring": "C",
+      "pen": "A",
+      "coin": "A",
+      "key": "A"
+    },
+    "final": {
+      "ring": "C",
+      "pen": "B",
+      "coin": "C",
+      "key": "B"
+    },
+    "distractors": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-010",
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "A",
+    "changed": false,
+    "initial": {
+      "key": "B",
+      "pen": "A",
+      "ring": "A",
+      "coin": "A"
+    },
+    "final": {
+      "key": "C",
+      "pen": "B",
+      "ring": "A",
+      "coin": "A"
+    },
+    "distractors": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-011",
+    "target": "coin",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "C",
+    "changed": true,
+    "initial": {
+      "coin": "A",
+      "key": "B",
+      "pen": "C",
+      "ring": "A"
+    },
+    "final": {
+      "coin": "C",
+      "key": "B",
+      "pen": "A",
+      "ring": "C"
+    },
+    "distractors": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-012",
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "B",
+    "changed": true,
+    "initial": {
+      "ring": "C",
+      "pen": "C",
+      "coin": "C",
+      "key": "B"
+    },
+    "final": {
+      "ring": "B",
+      "pen": "B",
+      "coin": "A",
+      "key": "B"
+    },
+    "distractors": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-013",
+    "target": "pen",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "A",
+    "changed": true,
+    "initial": {
+      "key": "B",
+      "ring": "B",
+      "pen": "C",
+      "coin": "A"
+    },
+    "final": {
+      "key": "A",
+      "ring": "A",
+      "pen": "A",
+      "coin": "C"
+    },
+    "distractors": [
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-014",
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "C",
+    "changed": true,
+    "initial": {
+      "pen": "B",
+      "coin": "C",
+      "key": "A",
+      "ring": "C"
+    },
+    "final": {
+      "pen": "C",
+      "coin": "C",
+      "key": "B",
+      "ring": "B"
+    },
+    "distractors": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-015",
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "C",
+    "changed": true,
+    "initial": {
+      "key": "C",
+      "pen": "B",
+      "ring": "B",
+      "coin": "C"
+    },
+    "final": {
+      "key": "B",
+      "pen": "C",
+      "ring": "C",
+      "coin": "B"
+    },
+    "distractors": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-016",
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "A",
+    "changed": false,
+    "initial": {
+      "ring": "C",
+      "pen": "A",
+      "key": "C",
+      "coin": "A"
+    },
+    "final": {
+      "ring": "A",
+      "pen": "A",
+      "key": "B",
+      "coin": "C"
+    },
+    "distractors": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-017",
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "C",
+    "changed": false,
+    "initial": {
+      "ring": "C",
+      "coin": "A",
+      "key": "C",
+      "pen": "C"
+    },
+    "final": {
+      "ring": "C",
+      "coin": "C",
+      "key": "B",
+      "pen": "C"
+    },
+    "distractors": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-018",
+    "target": "coin",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "C",
+    "changed": false,
+    "initial": {
+      "ring": "A",
+      "coin": "C",
+      "key": "A",
+      "pen": "B"
+    },
+    "final": {
+      "ring": "C",
+      "coin": "C",
+      "key": "C",
+      "pen": "C"
+    },
+    "distractors": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-019",
+    "target": "key",
+    "query_position": 2,
+    "source_box": "A",
+    "current_box": "B",
+    "changed": true,
+    "initial": {
+      "coin": "B",
+      "ring": "B",
+      "key": "A",
+      "pen": "B"
+    },
+    "final": {
+      "coin": "A",
+      "ring": "C",
+      "key": "B",
+      "pen": "B"
+    },
+    "distractors": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-020",
+    "target": "key",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "A",
+    "changed": true,
+    "initial": {
+      "pen": "B",
+      "coin": "A",
+      "key": "B",
+      "ring": "B"
+    },
+    "final": {
+      "pen": "A",
+      "coin": "A",
+      "key": "A",
+      "ring": "B"
+    },
+    "distractors": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-021",
+    "target": "key",
+    "query_position": 3,
+    "source_box": "C",
+    "current_box": "B",
+    "changed": true,
+    "initial": {
+      "coin": "C",
+      "ring": "C",
+      "pen": "A",
+      "key": "C"
+    },
+    "final": {
+      "coin": "A",
+      "ring": "B",
+      "pen": "A",
+      "key": "B"
+    },
+    "distractors": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-022",
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "B",
+    "changed": true,
+    "initial": {
+      "coin": "B",
+      "ring": "A",
+      "key": "A",
+      "pen": "A"
+    },
+    "final": {
+      "coin": "C",
+      "ring": "B",
+      "key": "A",
+      "pen": "B"
+    },
+    "distractors": [
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-023",
+    "target": "ring",
+    "query_position": 1,
+    "source_box": "C",
+    "current_box": "A",
+    "changed": true,
+    "initial": {
+      "pen": "C",
+      "ring": "C",
+      "coin": "C",
+      "key": "A"
+    },
+    "final": {
+      "pen": "C",
+      "ring": "A",
+      "coin": "C",
+      "key": "A"
+    },
+    "distractors": [
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-024",
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "A",
+    "current_box": "C",
+    "changed": true,
+    "initial": {
+      "coin": "C",
+      "pen": "A",
+      "ring": "C",
+      "key": "A"
+    },
+    "final": {
+      "coin": "A",
+      "pen": "C",
+      "ring": "C",
+      "key": "A"
+    },
+    "distractors": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-025",
+    "target": "ring",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "B",
+    "changed": true,
+    "initial": {
+      "coin": "C",
+      "pen": "B",
+      "ring": "C",
+      "key": "A"
+    },
+    "final": {
+      "coin": "B",
+      "pen": "A",
+      "ring": "B",
+      "key": "B"
+    },
+    "distractors": [
+      [
+        "key",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-026",
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "B",
+    "current_box": "A",
+    "changed": true,
+    "initial": {
+      "ring": "B",
+      "pen": "C",
+      "coin": "C",
+      "key": "A"
+    },
+    "final": {
+      "ring": "A",
+      "pen": "A",
+      "coin": "C",
+      "key": "B"
+    },
+    "distractors": [
+      [
+        "key",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-027",
+    "target": "coin",
+    "query_position": 3,
+    "source_box": "A",
+    "current_box": "C",
+    "changed": true,
+    "initial": {
+      "pen": "C",
+      "key": "C",
+      "ring": "A",
+      "coin": "A"
+    },
+    "final": {
+      "pen": "B",
+      "key": "C",
+      "ring": "C",
+      "coin": "C"
+    },
+    "distractors": [
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ]
+    ]
+  },
+  {
+    "id": "paired-028",
+    "target": "ring",
+    "query_position": 0,
+    "source_box": "C",
+    "current_box": "A",
+    "changed": true,
+    "initial": {
+      "ring": "C",
+      "key": "B",
+      "coin": "B",
+      "pen": "A"
+    },
+    "final": {
+      "ring": "A",
+      "key": "A",
+      "coin": "A",
+      "pen": "A"
+    },
+    "distractors": [
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-029",
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "A",
+    "changed": true,
+    "initial": {
+      "key": "C",
+      "pen": "B",
+      "ring": "B",
+      "coin": "A"
+    },
+    "final": {
+      "key": "A",
+      "pen": "A",
+      "ring": "C",
+      "coin": "A"
+    },
+    "distractors": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-030",
+    "target": "pen",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "B",
+    "changed": false,
+    "initial": {
+      "ring": "C",
+      "pen": "B",
+      "key": "C",
+      "coin": "A"
+    },
+    "final": {
+      "ring": "B",
+      "pen": "B",
+      "key": "A",
+      "coin": "A"
+    },
+    "distractors": [
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-031",
+    "target": "pen",
+    "query_position": 0,
+    "source_box": "A",
+    "current_box": "B",
+    "changed": true,
+    "initial": {
+      "pen": "A",
+      "key": "B",
+      "coin": "A",
+      "ring": "C"
+    },
+    "final": {
+      "pen": "B",
+      "key": "A",
+      "coin": "B",
+      "ring": "C"
+    },
+    "distractors": [
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-032",
+    "target": "pen",
+    "query_position": 3,
+    "source_box": "B",
+    "current_box": "B",
+    "changed": false,
+    "initial": {
+      "coin": "C",
+      "ring": "A",
+      "key": "A",
+      "pen": "B"
+    },
+    "final": {
+      "coin": "B",
+      "ring": "A",
+      "key": "C",
+      "pen": "B"
+    },
+    "distractors": [
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-033",
+    "target": "coin",
+    "query_position": 2,
+    "source_box": "C",
+    "current_box": "C",
+    "changed": false,
+    "initial": {
+      "pen": "B",
+      "key": "A",
+      "coin": "C",
+      "ring": "B"
+    },
+    "final": {
+      "pen": "B",
+      "key": "B",
+      "coin": "C",
+      "ring": "B"
+    },
+    "distractors": [
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "key",
+        "C"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "key",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ]
+    ]
+  },
+  {
+    "id": "paired-034",
+    "target": "key",
+    "query_position": 2,
+    "source_box": "B",
+    "current_box": "B",
+    "changed": false,
+    "initial": {
+      "ring": "A",
+      "coin": "A",
+      "key": "B",
+      "pen": "C"
+    },
+    "final": {
+      "ring": "C",
+      "coin": "B",
+      "key": "B",
+      "pen": "A"
+    },
+    "distractors": [
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "C"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "ring",
+        "C"
+      ],
+      [
+        "pen",
+        "A"
+      ]
+    ]
+  },
+  {
+    "id": "paired-035",
+    "target": "key",
+    "query_position": 1,
+    "source_box": "B",
+    "current_box": "C",
+    "changed": true,
+    "initial": {
+      "ring": "C",
+      "key": "B",
+      "coin": "B",
+      "pen": "C"
+    },
+    "final": {
+      "ring": "B",
+      "key": "C",
+      "coin": "B",
+      "pen": "B"
+    },
+    "distractors": [
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "ring",
+        "A"
+      ],
+      [
+        "coin",
+        "B"
+      ],
+      [
+        "coin",
+        "A"
+      ],
+      [
+        "pen",
+        "C"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "pen",
+        "A"
+      ],
+      [
+        "pen",
+        "B"
+      ],
+      [
+        "ring",
+        "B"
+      ],
+      [
+        "coin",
+        "B"
+      ]
+    ]
+  }
+]

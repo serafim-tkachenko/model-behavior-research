@@ -8,6 +8,10 @@ Can a diagnosis of a language model's state-tracking error help choose a correct
 
 The completed [lookup calibration](CALIBRATION_RESULTS.md) compares static prose and table prompts on disjoint development and reserved cases. Its [protocol](calibration_protocol.md) and saved evidence distinguish basic retrieval competence from state updating.
 
+## Paired history controls
+
+The [paired-history result](PAIRED_HISTORY_RESULTS.md) compares target-update positions within identical distractor streams, with unchanged targets and snapshot/single-update controls. Its [protocol](paired_history_protocol.md) fixes all 216 prompts before inference.
+
 ## Original preflight
 
 Initial model: Gemma 3 1B **pretrained**, pinned to revision `fcf18a2a879aab110ca39f8bffbccd5d49d8eb29`; local cached weights; CPU float32; no training. Four named objects can occupy any of three boxes, including shared boxes. A move changes only the named object's box. The target always changes location. There are 0, 4 or 12 subsequent unrelated moves, six cases per regime, with two answers per box in each regime. The seed is 20260920. Three fixed worked examples use different object names.
@@ -28,7 +32,7 @@ The exact replay baseline should score 100%, an ignore-updates baseline 0% on th
 These are working triage rules, not preregistered scientific hypotheses or significance tests. With only 18 histories, report counts and do not infer population effects.
 
 - If either snapshot condition is below 90% accuracy, do not interpret history errors as isolated state-update failures. Inspect format competence and model suitability first.
-- If snapshots pass and history is 20–90%, inspect the paired failures and candidate probability mass. This is a potentially useful assay, not proof of novelty.
+- If snapshots pass and history is 20вЂ“90%, inspect the paired failures and candidate probability mass. This is a potentially useful assay, not proof of novelty.
 - If history is almost perfect, do not keep adding arbitrary difficulty until an impressive failure appears. Decide whether a task with competing updates is independently motivated.
 - A reminder that removes the failures weakens the case for a complex diagnostic method. Mixed reminder effects justify identifying a specific ambiguity, not immediately training a selector.
 
