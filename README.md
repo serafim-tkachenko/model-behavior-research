@@ -4,7 +4,7 @@ Independent experiments on learned representations and model behavior, by Serafi
 
 The main study asks whether the context in which an SAE feature activates helps predict what happens when that feature is edited. Selected features did activate in different contexts, but the tested predictors failed a basic comparison: a fit-set mean had lower pooled check error than every fitted model for all three features.
 
-**[Read the study](reports/sae_context_study/report.md)** В· [PDF](reports/sae_context_study/report.pdf) В· [Prediction results](evidence/sae_prediction/prediction_summary.csv) В· [Reproduce](docs/reproduction.md)
+**[Read the study](reports/sae_context_study/report.md)** · [PDF](reports/sae_context_study/report.pdf) · [Prediction results](evidence/sae_prediction/prediction_summary.csv) · [Reproduce](docs/reproduction.md)
 
 ## The SAE study
 
@@ -38,7 +38,7 @@ Building the report uses committed tables and needs no GPU. Reconstructing those
 
 ## State-update preflight
 
-A [development pilot](experiments/state_updates/README.md) checks whether a language model can use updated object locations and whether a generic reminder changes its errors. Exact state snapshots serve as competence controls. [Original results](experiments/state_updates/RESULTS.md) and [lookup calibration](experiments/state_updates/CALIBRATION_RESULTS.md), and [paired history controls](experiments/state_updates/PAIRED_HISTORY_RESULTS.md). This pilot is separate from the SAE study.
+A [development pilot](experiments/state_updates/README.md) checks whether a language model can use updated object locations and whether a generic reminder changes its errors. Exact state snapshots serve as competence controls. [Original results](experiments/state_updates/RESULTS.md), [lookup calibration](experiments/state_updates/CALIBRATION_RESULTS.md), and [paired history controls](experiments/state_updates/PAIRED_HISTORY_RESULTS.md). This pilot is separate from the SAE study.
 
 ## Other experiments
 

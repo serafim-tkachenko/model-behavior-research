@@ -32,7 +32,7 @@ The exact replay baseline should score 100%, an ignore-updates baseline 0% on th
 These are working triage rules, not preregistered scientific hypotheses or significance tests. With only 18 histories, report counts and do not infer population effects.
 
 - If either snapshot condition is below 90% accuracy, do not interpret history errors as isolated state-update failures. Inspect format competence and model suitability first.
-- If snapshots pass and history is 20вЂ“90%, inspect the paired failures and candidate probability mass. This is a potentially useful assay, not proof of novelty.
+- If snapshots pass and history is 20–90%, inspect the paired failures and candidate probability mass. This is a potentially useful assay, not proof of novelty.
 - If history is almost perfect, do not keep adding arbitrary difficulty until an impressive failure appears. Decide whether a task with competing updates is independently motivated.
 - A reminder that removes the failures weakens the case for a complex diagnostic method. Mixed reminder effects justify identifying a specific ambiguity, not immediately training a selector.
 
